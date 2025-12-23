@@ -1,0 +1,240 @@
+{
+  "name": "N8N_EU_Grants_MultiCompany11_Table",
+  "nodes": [
+    {
+      "parameters": {
+        "jsCode": "const fs = require('fs');\nconst filePath = 'C:\\\\Users\\\\Korisnik\\\\Desktop\\\\Alicorn\\\\n8n_eu_grants\\\\data\\\\grants\\\\new_grants.csv';\n\nif (!fs.existsSync(filePath)) {\n  return [{ json: { hasNewGrants: false, message: 'new_grants.csv not found' } }];\n}\n\nconst stats = fs.statSync(filePath);\nif (stats.size <= 50) {\n  return [{ json: { hasNewGrants: false, message: 'new_grants.csv empty', fileSize: stats.size } }];\n}\n\nconst buffer = fs.readFileSync(filePath);\nreturn [{\n  json: { hasNewGrants: true, message: 'new grants available', fileSize: stats.size },\n  binary: { data: await this.helpers.prepareBinaryData(buffer, 'new_grants.csv') }\n}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [-500, 160],
+      "id": "read-grants",
+      "name": "Read_New_Grants",
+      "alwaysOutputData": true,
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": { "caseSensitive": true, "leftValue": "", "typeValidation": "strict", "version": 2 },
+          "conditions": [{
+            "id": "check-empty",
+            "leftValue": "={{ $json.hasNewGrants }}",
+            "operator": { "type": "boolean", "operation": "false", "singleValue": true }
+          }],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [-260, 160],
+      "id": "check-empty",
+      "name": "Has_Grants?"
+    },
+    {
+      "parameters": {
+        "select": "channel",
+        "channelId": { "__rl": true, "value": "C09U22T1QDS", "mode": "id" },
+        "text": "There are 0 new grants today :(\n\nSee you tomorrow, fingers crossed :)",
+        "otherOptions": {}
+      },
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.3,
+      "position": [-20, 60],
+      "id": "no-grants",
+      "name": "No_Grants_Today",
+      "credentials": { "slackApi": { "id": "mLR4kih4PzoQ7BMA", "name": "Slack account 2" } }
+    },
+    {
+      "parameters": { "options": { "headerRow": true } },
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1,
+      "position": [-20, 260],
+      "id": "extract-csv",
+      "name": "Extract_Grants"
+    },
+    {
+      "parameters": {
+        "jsCode": "// COMPANIES TABLE - Edit this data directly!\n// Each row = one company\n\nconst companies = [\n  {\n    id: 'alicorn',\n    name: 'Alicorn',\n    slack_channel_id: 'C09U22T1QDS',\n    country: 'Montenegro',\n    description: 'Marketing agency and software development company. Startups: 1) Educational video games for HR, compliance, SDG. 2) AI/ML products for domain name industry.',\n    sectors: 'software development, marketing, edtech, AI/ML, video games',\n    keywords: 'educational games, gamification, HR tech, compliance training, SDG, domain names, LLM, machine learning',\n    company_size: 'SME'\n  },\n  {\n    id: 'codepixel',\n    name: 'Codepixel', \n    slack_channel_id: 'C0A20RJQ98F',\n    country: 'Montenegro',\n    description: 'Digital product development company - engineering, design and AI. Web/mobile apps, UI/UX, custom software. Tech: .NET, Angular, Vue, Node, React, cloud/DevOps, IoT.',\n    sectors: 'software development, digital products, AI, IoT, cloud',\n    keywords: 'inovacije, automatizacija, digitalizacija, AI, web apps, mobile apps, UI/UX, DevOps',\n    company_size: 'SME'\n  }\n  // ADD MORE COMPANIES HERE:\n  // {\n  //   id: 'company-id',\n  //   name: 'Company Name',\n  //   slack_channel_id: 'CXXXXXXXX',\n  //   country: 'Country',\n  //   description: 'What the company does...',\n  //   sectors: 'sector1, sector2',\n  //   keywords: 'keyword1, keyword2',\n  //   company_size: 'SME'\n  // },\n];\n\n// Output each company as a separate item\nreturn companies.map(company => ({ json: company }));"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [220, 400],
+      "id": "companies-table",
+      "name": "📋 COMPANIES_TABLE"
+    },
+    {
+      "parameters": {
+        "mode": "combine",
+        "combinationMode": "multiplex",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.1,
+      "position": [460, 260],
+      "id": "cross-join",
+      "name": "Grant_x_Company"
+    },
+    {
+      "parameters": {
+        "modelId": { "__rl": true, "value": "gpt-4o-mini", "mode": "list", "cachedResultName": "GPT-4O-MINI" },
+        "responses": {
+          "values": [{
+            "role": "system",
+            "content": "=You are evaluating EU grant opportunities for a specific company.\n\nCOMPANY PROFILE:\n- Name: {{ $json.name }}\n- Country: {{ $json.country }}\n- Description: {{ $json.description }}\n- Sectors: {{ $json.sectors }}\n- Keywords: {{ $json.keywords }}\n- Company Size: {{ $json.company_size }}\n\nGRANT OPPORTUNITY:\n- Title: {{ $json.Title }}\n- Link: {{ $json.Link }}\n- Date: {{ $json.Date }}\n- Description: {{ $json.Description }}\n\nDetermine if this grant is relevant for this company.\n\nIf RELEVANT, respond: \"Yes - [1-2 sentence explanation]\"\nIf NOT relevant, respond only: \"No\"\n\nNote: News articles or announcements without actionable opportunities = \"No\""
+          }]
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 2,
+      "position": [700, 260],
+      "id": "llm-relevance",
+      "name": "Is_Relevant?",
+      "credentials": { "openAiApi": { "id": "h7XGTH5LbDFiJKZ9", "name": "OpenAi account" } }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": { "caseSensitive": true, "leftValue": "", "typeValidation": "strict", "version": 2 },
+          "conditions": [{
+            "id": "check-yes",
+            "leftValue": "={{ $json.output[0].content[0].text }}",
+            "rightValue": "Yes",
+            "operator": { "type": "string", "operation": "startsWith" }
+          }],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [940, 260],
+      "id": "if-relevant",
+      "name": "If_Relevant"
+    },
+    {
+      "parameters": {
+        "modelId": { "__rl": true, "value": "gpt-4o-mini", "mode": "list", "cachedResultName": "GPT-4O-MINI" },
+        "responses": {
+          "values": [{
+            "role": "system",
+            "content": "=Extract grant details as JSON:\n\nTitle: {{ $json.Title }}\nDate: {{ $json.Date }}\nDescription: {{ $json.Description }}\n\nReturn ONLY this JSON:\n{\n  \"summary\": \"Brief summary\",\n  \"total_funding\": \"Amount with currency or 'Not specified'\",\n  \"application_type\": \"Individual/Partnership/Both\",\n  \"partner_types\": \"Required partner types or 'Not specified'\",\n  \"partner_origins\": \"Geographic requirements or 'Not specified'\",\n  \"co_financing\": \"Required % or amount or 'Not specified'\"\n}"
+          }]
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 2,
+      "position": [1180, 160],
+      "id": "llm-extract",
+      "name": "Extract_Details",
+      "credentials": { "openAiApi": { "id": "h7XGTH5LbDFiJKZ9", "name": "OpenAi account" } }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Parse LLM response and format for Slack\nconst item = $input.item;\nlet extracted = {};\n\ntry {\n  const text = item.json.output[0].content[0].text;\n  const jsonMatch = text.match(/\\{[\\s\\S]*\\}/);\n  if (jsonMatch) extracted = JSON.parse(jsonMatch[0]);\n} catch (e) {\n  extracted = { summary: 'Failed to parse', total_funding: 'N/A', application_type: 'N/A', partner_types: 'N/A', partner_origins: 'N/A', co_financing: 'N/A' };\n}\n\nreturn [{\n  json: {\n    // Grant info\n    title: item.json.Title,\n    link: item.json.Link,\n    date: item.json.Date,\n    // Extracted details\n    summary: extracted.summary || 'Not specified',\n    total_funding: extracted.total_funding || 'Not specified',\n    application_type: extracted.application_type || 'Not specified',\n    partner_types: extracted.partner_types || 'Not specified',\n    partner_origins: extracted.partner_origins || 'Not specified',\n    co_financing: extracted.co_financing || 'Not specified',\n    // Company info (for routing)\n    company_name: item.json.name,\n    company_id: item.json.id,\n    slack_channel_id: item.json.slack_channel_id,\n    // Relevance reason\n    relevance: $('Is_Relevant?').item.json.output[0].content[0].text\n  }\n}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1420, 160],
+      "id": "format-message",
+      "name": "Format_Message"
+    },
+    {
+      "parameters": {
+        "select": "channel",
+        "channelId": { "__rl": true, "value": "={{ $json.slack_channel_id }}", "mode": "id" },
+        "text": "=🎯 *New Grant Match for {{ $json.company_name }}!*\n\n📋 *Title:* {{ $json.title }}\n\n📝 *Summary:*\n{{ $json.summary }}\n\n📅 *Opening Date:* {{ $json.date }}\n\n💰 *Funding:* {{ $json.total_funding }}\n\n👥 *Application:* {{ $json.application_type }}\n\n🤝 *Partners:* {{ $json.partner_types }}\n\n🌍 *Origins:* {{ $json.partner_origins }}\n\n💵 *Co-financing:* {{ $json.co_financing }}\n\n🔗 {{ $json.link }}\n\n---\n_{{ $json.relevance }}_",
+        "otherOptions": {}
+      },
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.3,
+      "position": [1660, 160],
+      "id": "send-slack",
+      "name": "Send_To_Channel",
+      "credentials": { "slackApi": { "id": "mLR4kih4PzoQ7BMA", "name": "Slack account 2" } }
+    },
+    {
+      "parameters": {
+        "jsCode": "const fs = require('fs');\nconst item = $input.item;\n\nconst csvPath = 'C:\\\\Users\\\\Korisnik\\\\Desktop\\\\Alicorn\\\\n8n_eu_grants\\\\data\\\\processed\\\\non_relevant.csv';\nconst title = (item.json.Title || '').replace(/\"/g, '\"\"');\nconst link = item.json.Link || '';\nconst date = item.json.Date || '';\nconst desc = (item.json.Description || '').replace(/\"/g, '\"\"');\nconst companyId = item.json.id || '';\nconst companyName = item.json.name || '';\n\nif (!fs.existsSync(csvPath)) {\n  fs.writeFileSync(csvPath, '\"Title\",\"Link\",\"Date\",\"Description\",\"CompanyId\",\"CompanyName\",\"Relevant\"\\n');\n}\nfs.appendFileSync(csvPath, `\"${title}\",\"${link}\",\"${date}\",\"${desc}\",\"${companyId}\",\"${companyName}\",\"no\"\\n`);\n\nreturn [{ json: { logged: true, title, company: companyName } }];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1180, 360],
+      "id": "log-non-relevant",
+      "name": "Log_Non_Relevant"
+    },
+    {
+      "parameters": { "command": "cd C:\\Users\\Korisnik\\Desktop\\Alicorn\\n8n_eu_grants && node scrapers/run_all_scrapers.js" },
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [-740, 160],
+      "id": "run-scrapers",
+      "name": "Run_Scrapers"
+    },
+    {
+      "parameters": { "rule": { "interval": [{ "triggerAtHour": 7 }] } },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [-980, 160],
+      "id": "schedule",
+      "name": "Daily_7AM"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Read_New_Grants": {
+      "main": [[{ "node": "Has_Grants?", "type": "main", "index": 0 }]]
+    },
+    "Has_Grants?": {
+      "main": [
+        [{ "node": "No_Grants_Today", "type": "main", "index": 0 }],
+        [{ "node": "Extract_Grants", "type": "main", "index": 0 }]
+      ]
+    },
+    "Extract_Grants": {
+      "main": [[
+        { "node": "Grant_x_Company", "type": "main", "index": 0 },
+        { "node": "📋 COMPANIES_TABLE", "type": "main", "index": 0 }
+      ]]
+    },
+    "📋 COMPANIES_TABLE": {
+      "main": [[{ "node": "Grant_x_Company", "type": "main", "index": 1 }]]
+    },
+    "Grant_x_Company": {
+      "main": [[{ "node": "Is_Relevant?", "type": "main", "index": 0 }]]
+    },
+    "Is_Relevant?": {
+      "main": [[{ "node": "If_Relevant", "type": "main", "index": 0 }]]
+    },
+    "If_Relevant": {
+      "main": [
+        [{ "node": "Extract_Details", "type": "main", "index": 0 }],
+        [{ "node": "Log_Non_Relevant", "type": "main", "index": 0 }]
+      ]
+    },
+    "Extract_Details": {
+      "main": [[{ "node": "Format_Message", "type": "main", "index": 0 }]]
+    },
+    "Format_Message": {
+      "main": [[{ "node": "Send_To_Channel", "type": "main", "index": 0 }]]
+    },
+    "Run_Scrapers": {
+      "main": [[{ "node": "Read_New_Grants", "type": "main", "index": 0 }]]
+    },
+    "Daily_7AM": {
+      "main": [[{ "node": "Run_Scrapers", "type": "main", "index": 0 }]]
+    }
+  },
+  "active": false,
+  "settings": { "executionOrder": "v1" },
+  "versionId": "mc11-table-v1",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "83a32f2e7edb8835cdf7075f15980f111fdb703a9950985f814febcaa25cace9"
+  },
+  "id": "7IjYE2TQQbJE2nML",
+  "tags": []
+}

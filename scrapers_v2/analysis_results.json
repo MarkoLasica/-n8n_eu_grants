@@ -1,0 +1,3426 @@
+[
+  {
+    "source": "horizon_europe",
+    "source_name": "Horizon Europe",
+    "list_data": {
+      "title": "MSCA COFUND 2026",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2026-COFUND-01-01?isExactMatch=true&status=31094502&frameworkProgramme=43108390&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "16 December 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Horizon Europe (HORIZON)",
+        "call": null,
+        "type_of_action": "HORIZON-TMA-MSCA-Cofund-D HORIZON TMA MSCA Cofund Doctoral programme",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "16 December 2025",
+        "deadline_date": "08 April 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nHORIZON-MSCA-2026-COFUND-01-01 - HORIZON-TMA-MSCA-Cofund-D HORIZON TMA MSCA Cofund Doctoral programme\nHORIZON-MSCA-2026-COFUND-01-01 - HORIZON-TMA-MSCA-Cofund-P HORIZON TMA MSCA Cofund Postdoctoral programme\n\t105 457 362\tSingle-stage\t2025-12-16\t\n2026-04-08\n\t\n\t",
+        "amount": "105457362",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "General conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Award criteria, scoring and thresholds",
+        "5b. Evaluation and award: Submission and evaluation processes",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Specific conditions",
+        "Application and evaluation forms and model grant agreement (MGA):",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": "Projects results are expected to contribute to the following outcomes: For supported doctoral candidates or postdoctoral researchers Deeper and more diverse set of research-related and transferable skills and competences; Improved employability and career prospects both within academia and beyond; New mind-sets and approaches to R&I work forged through international, inter-sectoral and interdisciplinary experience; Enhanced networking and communication capacities with scientific peers, as well",
+        "scope": "Applicants submit proposals for new or existing doctoral or postdoctoral programmes with an impact on the enhancement of human resources in R&I at regional, national or international level. These programmes will be co-funded by MSCA COFUND. Proposed programmes can cover any research disciplines (\"bottom-up\"), but exceptionally can also focus on specific disciplines, notably when they are based on national or regional Research and Innovation Strategies for Smart Specialisation (RIS3 strategies)."
+      },
+      "conditions": {
+        "eligible_countries": "EU/non-Associated Countries that are not automatically eligible for funding have made specific provisions for making funding available for their participants in Horizon Europe projects. See the information in the Horizon Europe Programme Guide.",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 17973,
+        "main_content_length": 16521,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "horizon_europe",
+    "source_name": "Horizon Europe",
+    "list_data": {
+      "title": "ERDERA Joint Transnational Call 2026: \"Resolving unsolved cases in rare genetic and non-genetic diseases”",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12661?isExactMatch=true&status=31094502&frameworkProgramme=43108390&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "11 December 2025"
+    },
+    "detail_data": {
+      "url_type": "competitive-calls-cs",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": null,
+        "call": null,
+        "type_of_action": null,
+        "grant_type": null,
+        "deadline_model": "multiple",
+        "opening_date": "11 December 2025",
+        "deadline_date": null,
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": false,
+        "raw_text": null,
+        "amount": null,
+        "currency": "EUR",
+        "year": null
+      },
+      "sections_found": [
+        "General Information",
+        "Submission & evaluation process",
+        "Call Timeline",
+        "1. Evaluation Process",
+        "7.1 Evaluation Criteria",
+        "7.1.1 Scoring system",
+        "7.1.2 Criteria",
+        "7.2 Pre-proposal Review",
+        "7.3 Full Proposal Review",
+        "7.4 Funding Decision",
+        "2. Redress Procedure",
+        "Further information",
+        "Task description"
+      ],
+      "description": {
+        "topic_description": null,
+        "expected_outcome": null,
+        "scope": null
+      },
+      "conditions": {
+        "eligible_countries": null,
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 15812,
+        "main_content_length": 14233,
+        "has_budget_table": false,
+        "table_count": 0
+      }
+    }
+  },
+  {
+    "source": "horizon_europe",
+    "source_name": "Horizon Europe",
+    "list_data": {
+      "title": "INCiTiS-FOOD Open Call for Independent Innovators (IIs)",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12662?isExactMatch=true&status=31094502&frameworkProgramme=43108390&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "11 December 2025"
+    },
+    "detail_data": {
+      "url_type": "competitive-calls-cs",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": null,
+        "call": null,
+        "type_of_action": null,
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "11 December 2025",
+        "deadline_date": "09 February 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": false,
+        "raw_text": null,
+        "amount": null,
+        "currency": "EUR",
+        "year": null
+      },
+      "sections_found": [
+        "General Information",
+        "Submission & evaluation process",
+        "Further information",
+        "Task description"
+      ],
+      "description": {
+        "topic_description": null,
+        "expected_outcome": null,
+        "scope": "and design; Impact (maximum score 5 points): Solution output; community engagement (with special consideration given to women and young adults). Implementation (maximum score 5 points): knowledge and business experience of the applicant. The top 12 applicants selected during the remote evaluation will be invited to the pitching events. The pitching events aim to deeply understand applicants’ concepts and the feasibility of future integration of the proposed solution. At the events, the Selectio"
+      },
+      "conditions": {
+        "eligible_countries": null,
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 7651,
+        "main_content_length": 6166,
+        "has_budget_table": false,
+        "table_count": 0
+      }
+    }
+  },
+  {
+    "source": "horizon_europe",
+    "source_name": "Horizon Europe",
+    "list_data": {
+      "title": "European Startup and Scaleup Hubs pilot",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIE-2026-02-CONNECT-01?isExactMatch=true&status=31094502&frameworkProgramme=43108390&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "11 December 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Horizon Europe (HORIZON)",
+        "call": null,
+        "type_of_action": "HORIZON-COFUND HORIZON Programme Cofund Actions",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "11 December 2025",
+        "deadline_date": "10 March 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nHORIZON-EIE-2026-02-CONNECT-01 - HORIZON-COFUND HORIZON Programme Cofund Actions\n\t20 000 000\tSingle-stage\t2025-12-11\t\n2026-03-10\n\t\naround 20000000\n\t\n1",
+        "amount": "20000000",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "General conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Award criteria, scoring and thresholds",
+        "5b. Evaluation and award: Submission and evaluation processes",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Specific conditions",
+        "Application and evaluation forms and model grant agreement (MGA):",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": "Projects under this topic will contribute to the following outcomes: Accelerate market expansion for European deep tech startups across EU regions and beyond by fostering collaboration and mutual support among European tech startup ecosystem actors; Establish robust, pan-European alliances of top-tier tech startup and scaleup hubs embedded in research, technology and higher education ecosystems; Enable cross-border access to infrastructures, facilities, corporates, investors and talents to deep",
+        "scope": "This action builds upon the EU’s strategic vision outlined in the EU Competitiveness Compass[1], the EIC scaling strategy[2], and the EU Startup and Scaleup Strategy[3]. It aligns with the objectives of strengthening Europe’s deep tech capabilities, increasing regional innovation cohesion and supporting the growth of globally competitive companies. The EU must act decisively to close the innovation gap with other world regions by enabling more commercial successes based on its scientific excell"
+      },
+      "conditions": {
+        "eligible_countries": "EU/non-Associated Countries that are not automatically eligible for funding have made specific provisions for making funding available for their participants in Horizon Europe projects. See the information in the Horizon Europe Programme Guide.",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 17510,
+        "main_content_length": 16024,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "horizon_europe",
+    "source_name": "Horizon Europe",
+    "list_data": {
+      "title": "A European HPC-centric Benchmark Framework",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EUROHPC-JU-2024-BENCHMARK-05?isExactMatch=true&status=31094502&frameworkProgramme=43108390&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "11 December 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Horizon Europe (HORIZON)",
+        "call": null,
+        "type_of_action": "HORIZON-RIA HORIZON Research and Innovation Actions",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "11 December 2025",
+        "deadline_date": "24 March 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2024\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nHORIZON-EUROHPC-JU-2024-BENCHMARK-05 - HORIZON-RIA HORIZON Research and Innovation Actions\nHORIZON-EUROHPC-JU-2024-BENCHMARK-05-03 - HORIZON-RIA HORIZON Research and Innovation Actions\n\t2 000 000\tSingle-stage\t2025-12-11\t\n2026-03-24\n\t\n500000 to 1000000\n500000 to 1000000\n\t\n1\n1",
+        "amount": "2000000",
+        "currency": "EUR",
+        "year": "2024"
+      },
+      "sections_found": [
+        "General conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Award criteria, scoring and thresholds",
+        "5b. Evaluation and award: Submission and evaluation processes",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Specific conditions",
+        "Application and evaluation forms and model grant agreement (MGA):",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": "The Project is expected to contribute to the following outcomes: Enhanced decision-making through comprehensive system comparisons that improves the procurement process for exascale, post-exascale supercomputers and supercomputers with dedicated AI capabilities. This will enable more informed choices regarding the acquisition of new systems and upgrades of existing ones Competent HPC application developers and end-users in selecting systems that best meet their needs, balancing quality factors",
+        "scope": "A. Deployment of a benchmarking framework for designing, developing and executing exascale HPC and HPC-AI benchmarks. The envisioned benchmarking framework will: offer a fine grained and fair comparison methodology among different HPC systems, i.e. all benchmarks, benchmark run rules[1] and benchmark submission rules must be designed to ensure reproducibility, repeatability and replicability of metrics on the same system, ensuring fairness and comparability of metrics across different systems d"
+      },
+      "conditions": {
+        "eligible_countries": "EU/non-Associated Countries that are not automatically eligible for funding have made specific provisions for making funding available for their participants in Horizon Europe projects. See the information in the Horizon Europe Programme Guide.",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 23891,
+        "main_content_length": 22393,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "horizon_europe",
+    "source_name": "Horizon Europe",
+    "list_data": {
+      "title": "A European Benchmarking Framework for hybrid quantum-classical computing",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EUROHPC-JU-2024-BENCHMARK-05-03?isExactMatch=true&status=31094502&frameworkProgramme=43108390&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "11 December 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Horizon Europe (HORIZON)",
+        "call": null,
+        "type_of_action": "HORIZON-RIA HORIZON Research and Innovation Actions",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "11 December 2025",
+        "deadline_date": "24 March 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2024\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nHORIZON-EUROHPC-JU-2024-BENCHMARK-05 - HORIZON-RIA HORIZON Research and Innovation Actions\nHORIZON-EUROHPC-JU-2024-BENCHMARK-05-03 - HORIZON-RIA HORIZON Research and Innovation Actions\n\t2 000 000\tSingle-stage\t2025-12-11\t\n2026-03-24\n\t\n500000 to 1000000\n500000 to 1000000\n\t\n1\n1",
+        "amount": "2000000",
+        "currency": "EUR",
+        "year": "2024"
+      },
+      "sections_found": [
+        "General conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Award criteria, scoring and thresholds",
+        "5b. Evaluation and award: Submission and evaluation processes",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Specific conditions",
+        "Application and evaluation forms and model grant agreement (MGA):",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": "Enhanced evidence-based decision making through comprehensive system comparison that improves the procurement process for quantum-accelerated supercomputers (hybrid HPC-QC). This will enable more informed choices regarding the acquisition of new systems and upgrades of existing ones Overall improved operation and fine-tuning of hybrid HPC-QC systems leading to improved performance, throughput and energy optimization, and improved end-user experience Enhancing the competitiveness of EU quantum su",
+        "scope": "A.) Development of a benchmarking framework addressing the following aspects: offer a fine grained and fair comparison methodology among different systems and integration approaches, i.e. all benchmarks, benchmark run rules[1] and benchmark submission rules must be designed to ensure reproducibility, repeatability and replicability of metrics on the same system, ensuring fairness and comparability of metrics across different systems define and continuously update a precise and relevant performa"
+      },
+      "conditions": {
+        "eligible_countries": "EU/non-Associated Countries that are not automatically eligible for funding have made specific provisions for making funding available for their participants in Horizon Europe projects. See the information in the Horizon Europe Programme Guide.",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 19701,
+        "main_content_length": 18140,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "horizon_europe",
+    "source_name": "Horizon Europe",
+    "list_data": {
+      "title": "EP PerMed - the1st Twinning call (2026)",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12445?isExactMatch=true&status=31094502&frameworkProgramme=43108390&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "10 December 2025"
+    },
+    "detail_data": {
+      "url_type": "competitive-calls-cs",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": null,
+        "call": null,
+        "type_of_action": null,
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "10 December 2025",
+        "deadline_date": "26 February 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": false,
+        "raw_text": null,
+        "amount": null,
+        "currency": "EUR",
+        "year": null
+      },
+      "sections_found": [
+        "General Information",
+        "Submission & evaluation process",
+        "Further information",
+        "Task description"
+      ],
+      "description": {
+        "topic_description": null,
+        "expected_outcome": null,
+        "scope": ", objectives, and intended outcomes. Weight = 35% Impact: The project must have a clear value of benefit for the Twinning Receiver(s’) patients, citizens, organisation and / or healthcare system(s). Weight = 40% Implementation: The work plan of the project should be complete and feasible, the team behind the project should have the capacity/expertise to deliver the project. Weight = 15% Pitch quality: The online pitch of the project should be clear and concise. Weight = 10% Each proposal will b"
+      },
+      "conditions": {
+        "eligible_countries": null,
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 14164,
+        "main_content_length": 12714,
+        "has_budget_table": false,
+        "table_count": 0
+      }
+    }
+  },
+  {
+    "source": "horizon_europe",
+    "source_name": "Horizon Europe",
+    "list_data": {
+      "title": "Pillar I: Building institutional capacities for ethical, equitable, open, and inclusive ERA",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-WIDERA-2026-06-ERA-02?isExactMatch=true&status=31094502&frameworkProgramme=43108390&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "10 December 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Horizon Europe (HORIZON)",
+        "call": null,
+        "type_of_action": "HORIZON-CSA HORIZON Coordination and Support Actions",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "10 December 2025",
+        "deadline_date": "12 March 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nHORIZON-WIDERA-2026-06-ERA-01 - HORIZON-CSA HORIZON Coordination and Support Actions\n\t6 000 000\tSingle-stage\t2025-12-10\t\n2026-03-12\n\t\n2000000 to 3000000\n\t\n2\n\n\nHORIZON-WIDERA-2026-06-ERA-02 - HORIZON-CSA HORIZON Coordination and Support Actions\n\t9 000 000\tSingle-stage\t2025-12-10\t\n2026-03-12\n\t\n1500000 to 2000000\n\t\n6\n\n\nHORIZON-WIDERA-2026-06-ERA-03 - HORIZON-CSA HORIZON Coordination and S",
+        "amount": "6000000",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "General conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Award criteria, scoring and thresholds",
+        "5b. Evaluation and award: Submission and evaluation processes",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Specific conditions",
+        "Application and evaluation forms and model grant agreement (MGA):",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": ". While focusing on one area, proposals are encouraged to consider synergies with other topics of this Call. For example, applicants that choose Area 3 on equity and inclusion in open science may propose links to peer-review for scientific publishing (Area 4 of this topic), non-profit open access publishing models (Area 1 of topic HORIZON-WIDERA-2026-06-ERA-01), or reproducibility in research (Area 1 of topic HORIZON-WIDERA-2026-06-ERA-08). Any such synergies should be clearly explained. Propo",
+        "scope": "This topic aims to foster effective and sustainable structural institutional changes within R&I organisations in alignment with the ERA priorities. It supports the adoption of ERA policies and practices within institutions through capacity-building activities, such as the provision of tools, resources, recommendations, training, and exchange of good practices. Applicants should select and clearly identify one area being addressed, choosing from the four areas outlined below. Each area is design"
+      },
+      "conditions": {
+        "eligible_countries": "EU/non-Associated Countries that are not automatically eligible for funding have made specific provisions for making funding available for their participants in Horizon Europe projects. See the information in the Horizon Europe Programme Guide.",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 23450,
+        "main_content_length": 21861,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "horizon_europe",
+    "source_name": "Horizon Europe",
+    "list_data": {
+      "title": "Pillar III: Science comes to town 2028",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-WIDERA-2026-06-ERA-07?isExactMatch=true&status=31094502&frameworkProgramme=43108390&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "10 December 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Horizon Europe (HORIZON)",
+        "call": null,
+        "type_of_action": "HORIZON-CSA HORIZON Coordination and Support Actions",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "10 December 2025",
+        "deadline_date": "12 March 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nHORIZON-WIDERA-2026-06-ERA-01 - HORIZON-CSA HORIZON Coordination and Support Actions\n\t6 000 000\tSingle-stage\t2025-12-10\t\n2026-03-12\n\t\n2000000 to 3000000\n\t\n2\n\n\nHORIZON-WIDERA-2026-06-ERA-02 - HORIZON-CSA HORIZON Coordination and Support Actions\n\t9 000 000\tSingle-stage\t2025-12-10\t\n2026-03-12\n\t\n1500000 to 2000000\n\t\n6\n\n\nHORIZON-WIDERA-2026-06-ERA-03 - HORIZON-CSA HORIZON Coordination and S",
+        "amount": "6000000",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "General conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Award criteria, scoring and thresholds",
+        "5b. Evaluation and award: Submission and evaluation processes",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Specific conditions",
+        "Application and evaluation forms and model grant agreement (MGA):",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": "The successful proposal will deliver on the impact “Increased alignment of research with society’s needs, expectations and values”. Project results are expected to contribute to all of the following expected outcomes: Strengthened capacity, networks and involvement of the participating cities in science communication and citizen engagement in science; More informed, evidence-based policymaking and increased public engagement through inclusive and participatory discussions and debates on science",
+        "scope": "This topic supports a small group of cities in organising and hosting a joint 1-year programme “Science comes to town 2028”. The programme should have a robust concept and brand focusing on connecting citizens and science while involving all relevant stakeholders (e.g., researchers, research funders, policymakers, publishers, citizens, civil society organisations, and business community). Various events and activities should be organised, highlighting the latest R&I developments and their contr"
+      },
+      "conditions": {
+        "eligible_countries": "EU/non-Associated Countries that are not automatically eligible for funding have made specific provisions for making funding available for their participants in Horizon Europe projects. See the information in the Horizon Europe Programme Guide.",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 15710,
+        "main_content_length": 14227,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "horizon_europe",
+    "source_name": "Horizon Europe",
+    "list_data": {
+      "title": "Pillar III: Fostering citizen engagement for more responsible and democratic R&I",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-WIDERA-2026-06-ERA-05?isExactMatch=true&status=31094502&frameworkProgramme=43108390&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "10 December 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Horizon Europe (HORIZON)",
+        "call": null,
+        "type_of_action": "HORIZON-CSA HORIZON Coordination and Support Actions",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "10 December 2025",
+        "deadline_date": "12 March 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nHORIZON-WIDERA-2026-06-ERA-01 - HORIZON-CSA HORIZON Coordination and Support Actions\n\t6 000 000\tSingle-stage\t2025-12-10\t\n2026-03-12\n\t\n2000000 to 3000000\n\t\n2\n\n\nHORIZON-WIDERA-2026-06-ERA-02 - HORIZON-CSA HORIZON Coordination and Support Actions\n\t9 000 000\tSingle-stage\t2025-12-10\t\n2026-03-12\n\t\n1500000 to 2000000\n\t\n6\n\n\nHORIZON-WIDERA-2026-06-ERA-03 - HORIZON-CSA HORIZON Coordination and S",
+        "amount": "6000000",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "General conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Award criteria, scoring and thresholds",
+        "5b. Evaluation and award: Submission and evaluation processes",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Specific conditions",
+        "Application and evaluation forms and model grant agreement (MGA):",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": ". Project activities should reach large communities of stakeholders ensuring a wide geographical coverage, inclusivity, broad participation, and accessibility over the course of the project. Proposals should describe their target group in terms of its",
+        "scope": "This topic aims to connect R&I with citizens and other stakeholders by fostering greater citizen engagement, participation, and science communication. Proposals will contribute to the impact of “Increasing trust in science and alignment of R&I with society’s needs, expectations and values”, thereby enhancing the democratic character and impact of science in the ERA. Applicants should select and clearly identify one area being addressed, choosing from the two areas outlined below, both supportin"
+      },
+      "conditions": {
+        "eligible_countries": "EU/non-Associated Countries that are not automatically eligible for funding have made specific provisions for making funding available for their participants in Horizon Europe projects. See the information in the Horizon Europe Programme Guide.",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 16358,
+        "main_content_length": 14791,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "horizon_europe",
+    "source_name": "Horizon Europe",
+    "list_data": {
+      "title": "Pillar II: Strengthening ecosystems for open, ethical, and sustainable ERA",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-WIDERA-2026-06-ERA-03?isExactMatch=true&status=31094502&frameworkProgramme=43108390&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "10 December 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Horizon Europe (HORIZON)",
+        "call": null,
+        "type_of_action": "HORIZON-CSA HORIZON Coordination and Support Actions",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "10 December 2025",
+        "deadline_date": "12 March 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nHORIZON-WIDERA-2026-06-ERA-01 - HORIZON-CSA HORIZON Coordination and Support Actions\n\t6 000 000\tSingle-stage\t2025-12-10\t\n2026-03-12\n\t\n2000000 to 3000000\n\t\n2\n\n\nHORIZON-WIDERA-2026-06-ERA-02 - HORIZON-CSA HORIZON Coordination and Support Actions\n\t9 000 000\tSingle-stage\t2025-12-10\t\n2026-03-12\n\t\n1500000 to 2000000\n\t\n6\n\n\nHORIZON-WIDERA-2026-06-ERA-03 - HORIZON-CSA HORIZON Coordination and S",
+        "amount": "6000000",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "General conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Award criteria, scoring and thresholds",
+        "5b. Evaluation and award: Submission and evaluation processes",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Specific conditions",
+        "Application and evaluation forms and model grant agreement (MGA):",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": ". Project activities should reach large communities of stakeholders, engaging also those beyond academia, ensuring a wide geographical coverage, inclusivity, broad participation, and accessibility over the course of the project. Proposals should describe the target group in terms of its",
+        "scope": "This topic aims to promote the adoption of ERA policies and practices, contributing to sustainable ecosystems established around ERA priorities through enhanced cooperation, coordination and alignment. The topic helps to create new or enhance existing ecosystems through activities such as networking and cooperative action, knowledge exchange and dissemination, tools, training, and policy advice. Applicants should select and clearly identify one area being addressed, choosing from the three area"
+      },
+      "conditions": {
+        "eligible_countries": "EU/non-Associated Countries that are not automatically eligible for funding have made specific provisions for making funding available for their participants in Horizon Europe projects. See the information in the Horizon Europe Programme Guide.",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 21491,
+        "main_content_length": 19936,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "horizon_europe",
+    "source_name": "Horizon Europe",
+    "list_data": {
+      "title": "Pillar III: European Citizens' Hackathon Championship",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-WIDERA-2026-06-ERA-06?isExactMatch=true&status=31094502&frameworkProgramme=43108390&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "10 December 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Horizon Europe (HORIZON)",
+        "call": null,
+        "type_of_action": "HORIZON-CSA HORIZON Coordination and Support Actions",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "10 December 2025",
+        "deadline_date": "12 March 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nHORIZON-WIDERA-2026-06-ERA-01 - HORIZON-CSA HORIZON Coordination and Support Actions\n\t6 000 000\tSingle-stage\t2025-12-10\t\n2026-03-12\n\t\n2000000 to 3000000\n\t\n2\n\n\nHORIZON-WIDERA-2026-06-ERA-02 - HORIZON-CSA HORIZON Coordination and Support Actions\n\t9 000 000\tSingle-stage\t2025-12-10\t\n2026-03-12\n\t\n1500000 to 2000000\n\t\n6\n\n\nHORIZON-WIDERA-2026-06-ERA-03 - HORIZON-CSA HORIZON Coordination and S",
+        "amount": "6000000",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "General conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Award criteria, scoring and thresholds",
+        "5b. Evaluation and award: Submission and evaluation processes",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Specific conditions",
+        "Application and evaluation forms and model grant agreement (MGA):",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": "Proposals will deliver on the impact of “Stronger translation of R&I results into society and economy”, contributing to the ERA Structural Policy “Upscaling knowledge valorisation capacities and activities”. Project results are expected to contribute to the following outcomes: Hundreds of innovative solutions resulting from the co-creation in transdisciplinary teams of researchers and citizens, supported through mentoring, business and technical advice and training to enter the market; Upgraded",
+        "scope": "This topic focuses on connecting R&I with citizens and other stakeholders in order to upscale knowledge valorisation, while also contributing to increased trust in science and alignment of R&I with society’s needs, expectations and values. It aims to accelerate knowledge valorisation through citizen engagement by driving the co-creation of innovative solutions that address citizens' needs, in joint teams of researchers and citizens, thereby supporting their market uptake. The topic will enable"
+      },
+      "conditions": {
+        "eligible_countries": "EU/non-Associated Countries that are not automatically eligible for funding have made specific provisions for making funding available for their participants in Horizon Europe projects. See the information in the Horizon Europe Programme Guide.",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 13560,
+        "main_content_length": 12047,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "horizon_europe",
+    "source_name": "Horizon Europe",
+    "list_data": {
+      "title": "Pillar IV: Advancing Knowledge for ERA",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-WIDERA-2026-06-ERA-08?isExactMatch=true&status=31094502&frameworkProgramme=43108390&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "10 December 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Horizon Europe (HORIZON)",
+        "call": null,
+        "type_of_action": "HORIZON-RIA HORIZON Research and Innovation Actions",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "10 December 2025",
+        "deadline_date": "12 March 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nHORIZON-WIDERA-2026-06-ERA-01 - HORIZON-CSA HORIZON Coordination and Support Actions\n\t6 000 000\tSingle-stage\t2025-12-10\t\n2026-03-12\n\t\n2000000 to 3000000\n\t\n2\n\n\nHORIZON-WIDERA-2026-06-ERA-02 - HORIZON-CSA HORIZON Coordination and Support Actions\n\t9 000 000\tSingle-stage\t2025-12-10\t\n2026-03-12\n\t\n1500000 to 2000000\n\t\n6\n\n\nHORIZON-WIDERA-2026-06-ERA-03 - HORIZON-CSA HORIZON Coordination and S",
+        "amount": "6000000",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "General conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Award criteria, scoring and thresholds",
+        "5b. Evaluation and award: Submission and evaluation processes",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Specific conditions",
+        "Application and evaluation forms and model grant agreement (MGA):",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": ". In project activities, particular attention should be paid to promoting inclusive gender equality and addressing gender-specific challenges. Expected project duration is up to 3 years without prejudice to a longer duration if justified. Area 1: Assessing reproducibility in research by direct replication of scientific findings Expected outcome: Proposals under Area 1 will deliver on the impact “Increased reproducibility, trustworthiness and transparency of scientific research”, contributing",
+        "scope": "This topic aims to generate new information and knowledge contributing to strengthening the evidence base for advancing the ERA. Applicants should propose diverse R&I activities that can support the design, implementation, monitoring and evaluation of ERA policies and practices. Applicants should select and clearly identify one area being addressed, choosing from the six areas outlined below. Each area is designed to contribute toward the implementation of an ERA policy: Area 1 – ERA Structural"
+      },
+      "conditions": {
+        "eligible_countries": "EU/non-Associated Countries that are not automatically eligible for funding have made specific provisions for making funding available for their participants in Horizon Europe projects. See the information in the Horizon Europe Programme Guide.",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 29121,
+        "main_content_length": 27638,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "horizon_europe",
+    "source_name": "Horizon Europe",
+    "list_data": {
+      "title": "Pillar I: Accelerating open access and research assessment reforms in ERA",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-WIDERA-2026-06-ERA-01?isExactMatch=true&status=31094502&frameworkProgramme=43108390&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "10 December 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Horizon Europe (HORIZON)",
+        "call": null,
+        "type_of_action": "HORIZON-CSA HORIZON Coordination and Support Actions",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "10 December 2025",
+        "deadline_date": "12 March 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nHORIZON-WIDERA-2026-06-ERA-01 - HORIZON-CSA HORIZON Coordination and Support Actions\n\t6 000 000\tSingle-stage\t2025-12-10\t\n2026-03-12\n\t\n2000000 to 3000000\n\t\n2\n\n\nHORIZON-WIDERA-2026-06-ERA-02 - HORIZON-CSA HORIZON Coordination and Support Actions\n\t9 000 000\tSingle-stage\t2025-12-10\t\n2026-03-12\n\t\n1500000 to 2000000\n\t\n6\n\n\nHORIZON-WIDERA-2026-06-ERA-03 - HORIZON-CSA HORIZON Coordination and S",
+        "amount": "6000000",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "General conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Award criteria, scoring and thresholds",
+        "5b. Evaluation and award: Submission and evaluation processes",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Specific conditions",
+        "Application and evaluation forms and model grant agreement (MGA):",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": ". While focusing on one area, applicants are encouraged to consider synergies with other topics of this Call. For example, applicants that choose Area 1 on non-profit open access publishing models may propose activities linked to research assessment (Area 2 of this topic), peer review (Area 4 of topic HORIZON-WIDERA-2026-06-ERA-02), or reproducibility in research (Area 1 of topic HORIZON-WIDERA-2026-06-ERA-08). Any such synergies should be clearly explained. Proposed activities should reach la",
+        "scope": "This topic aims to foster effective and sustainable structural institutional changes within R&I organisations in alignment with the ERA priorities. Through financial support to third parties (cascading grants), it will enable a variety of capacity-building activities, such as the provision of tools, resources, guidelines, training, and quality assurance programmes. Applicants should select and clearly identify one area being addressed, choosing from the two areas outlined below. Each area is de"
+      },
+      "conditions": {
+        "eligible_countries": "EU/non-Associated Countries that are not automatically eligible for funding have made specific provisions for making funding available for their participants in Horizon Europe projects. See the information in the Horizon Europe Programme Guide.",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 18214,
+        "main_content_length": 16661,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "horizon_europe",
+    "source_name": "Horizon Europe",
+    "list_data": {
+      "title": "Pillar II: Piloting innovative approaches to support academic startups and spinoffs",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-WIDERA-2026-06-ERA-04?isExactMatch=true&status=31094502&frameworkProgramme=43108390&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "10 December 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Horizon Europe (HORIZON)",
+        "call": null,
+        "type_of_action": "HORIZON-CSA HORIZON Coordination and Support Actions",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "10 December 2025",
+        "deadline_date": "12 March 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nHORIZON-WIDERA-2026-06-ERA-01 - HORIZON-CSA HORIZON Coordination and Support Actions\n\t6 000 000\tSingle-stage\t2025-12-10\t\n2026-03-12\n\t\n2000000 to 3000000\n\t\n2\n\n\nHORIZON-WIDERA-2026-06-ERA-02 - HORIZON-CSA HORIZON Coordination and Support Actions\n\t9 000 000\tSingle-stage\t2025-12-10\t\n2026-03-12\n\t\n1500000 to 2000000\n\t\n6\n\n\nHORIZON-WIDERA-2026-06-ERA-03 - HORIZON-CSA HORIZON Coordination and S",
+        "amount": "6000000",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "General conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Award criteria, scoring and thresholds",
+        "5b. Evaluation and award: Submission and evaluation processes",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Specific conditions",
+        "Application and evaluation forms and model grant agreement (MGA):",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": "Proposals will deliver on the impact of “Stronger translation of R&I results into society and economy”, contributing to the ERA Structural Policy “Upscaling knowledge valorisation capacities and activities”. Project results are expected to contribute to the following outcomes: Upgraded guidance and services for supporting early-stage academic spinoffs and startups to bring their innovative solutions to market; Tested and shared innovative valorisation best practices addressing the needs of earl",
+        "scope": "The objective of this topic is to strengthen ecosystems for knowledge valorisation and innovation by supporting academic startups and spinoffs to benefit from end-user feedback and links to industry and society. The topic supports the objectives of the Startup and Scaleup Strategy[1] by fostering the market uptake of innovative solutions. Academic startups and spinoffs need access to excellent support services to commercialise their research and bring their innovations to market. Beyond technol"
+      },
+      "conditions": {
+        "eligible_countries": "EU/non-Associated Countries that are not automatically eligible for funding have made specific provisions for making funding available for their participants in Horizon Europe projects. See the information in the Horizon Europe Programme Guide.",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 13629,
+        "main_content_length": 12056,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "digital_europe",
+    "source_name": "Digital Europe",
+    "list_data": {
+      "title": "Recruitment cycle Cohort 2026",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12643?isExactMatch=true&status=31094502&frameworkProgramme=43152860&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "11 December 2025"
+    },
+    "detail_data": {
+      "url_type": "competitive-calls-cs",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "(associated countries)",
+        "call": null,
+        "type_of_action": null,
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "11 December 2025",
+        "deadline_date": "30 June 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": false,
+        "raw_text": null,
+        "amount": null,
+        "currency": "EUR",
+        "year": null
+      },
+      "sections_found": [
+        "General Information",
+        "Submission & evaluation process",
+        "Further information",
+        "Task description"
+      ],
+      "description": {
+        "topic_description": null,
+        "expected_outcome": null,
+        "scope": null
+      },
+      "conditions": {
+        "eligible_countries": "EU Member States (including overseas countries and territories (OCTs)) Listed EEA countries and countries associated to the Digital Europe Programme (associated countries) Only students enrolled and accepted in one of SPECTRO Masters’ programme are eligible to financial support. When receiving thei",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 23447,
+        "main_content_length": 22019,
+        "has_budget_table": false,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "digital_europe",
+    "source_name": "Digital Europe",
+    "list_data": {
+      "title": "Recruitment cycle Cohort 2026",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12646?isExactMatch=true&status=31094502&frameworkProgramme=43152860&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "11 December 2025"
+    },
+    "detail_data": {
+      "url_type": "competitive-calls-cs",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "(associated countries)",
+        "call": null,
+        "type_of_action": null,
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "11 December 2025",
+        "deadline_date": "30 June 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": false,
+        "raw_text": null,
+        "amount": null,
+        "currency": "EUR",
+        "year": null
+      },
+      "sections_found": [
+        "General Information",
+        "Submission & evaluation process",
+        "Further information",
+        "Task description"
+      ],
+      "description": {
+        "topic_description": null,
+        "expected_outcome": null,
+        "scope": null
+      },
+      "conditions": {
+        "eligible_countries": "EU Member States (including overseas countries and territories (OCTs)) Listed EEA countries and countries associated to the Digital Europe Programme (associated countries) Only students enrolled and accepted in ARISE Masters’ programme are eligible to financial support. When receiving their letter",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 22756,
+        "main_content_length": 21330,
+        "has_budget_table": false,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "digital_europe",
+    "source_name": "Digital Europe",
+    "list_data": {
+      "title": "Recruitment cycle Cohort 2026",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12645?isExactMatch=true&status=31094502&frameworkProgramme=43152860&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "11 December 2025"
+    },
+    "detail_data": {
+      "url_type": "competitive-calls-cs",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "(associated countries)",
+        "call": null,
+        "type_of_action": null,
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "11 December 2025",
+        "deadline_date": "30 June 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": false,
+        "raw_text": null,
+        "amount": null,
+        "currency": "EUR",
+        "year": null
+      },
+      "sections_found": [
+        "General Information",
+        "Submission & evaluation process",
+        "Further information",
+        "Task description"
+      ],
+      "description": {
+        "topic_description": null,
+        "expected_outcome": null,
+        "scope": null
+      },
+      "conditions": {
+        "eligible_countries": "EU Member States (including overseas countries and territories (OCTs)) Listed EEA countries and countries associated to the Digital Europe Programme (associated countries) Only students enrolled and accepted in EMAI4EU Masters’ programme are eligible to financial support. When receiving their lette",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 22765,
+        "main_content_length": 21337,
+        "has_budget_table": false,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "digital_europe",
+    "source_name": "Digital Europe",
+    "list_data": {
+      "title": "National Cyber Hubs",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-ECCC-2026-DEPLOY-CYBER-10-NCH?isExactMatch=true&status=31094502&frameworkProgramme=43152860&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "09 December 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Digital Europe Programme (DIGITAL)",
+        "call": null,
+        "type_of_action": "DIGITAL-JU-SIMPLE DIGITAL JU Simple Grants",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "09 December 2025",
+        "deadline_date": "28 May 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2025\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nDIGITAL-ECCC-2026-DEPLOY-CYBER-10-CBCH - DIGITAL-JU-SIMPLE DIGITAL JU Simple Grants\n\t2 000 000\tSingle-stage\t2025-12-09\t\n2026-05-28\n\t\n\t\n1\n\n\nDIGITAL-ECCC-2026-DEPLOY-CYBER-10-NCH - DIGITAL-JU-SIMPLE DIGITAL JU Simple Grants\n\t2 000 000\tSingle-stage\t2025-12-09\t\n2026-05-28\n\t\n\t\n1",
+        "amount": "2000000",
+        "currency": "EUR",
+        "year": "2025"
+      },
+      "sections_found": [
+        "Conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Submission and evaluation processes",
+        "5b. Evaluation and award: Award criteria, scoring and thresholds",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Call document and annexes:",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": "World-class National Cyber Hubs across the Union, supported by state-of-the-art technology, acting as clearing houses for detecting, gathering and storing data on cybersecurity threats, analysing this data, and sharing and reporting CTI, reviews and analyses, taking into account well-established standards for sharing and automation processes. Threat intelligence and situational awareness capabilities and capacity building supporting strengthened collaboration between cybersecurity actors, inclu",
+        "scope": "The aim is to build capacity for new or existing National Cyber Hubs, e.g. equipment, tools, data feeds, as well as costs related to data analysis, interconnection with Cross-Border Cyber Hubs, etc. This can include for example automation, analysis and correlation tools and data feeds covering Cyber Threat Intelligence (CTI) at various levels, ranging from field data to Security Information and Event Management (SIEM) data to higher level CTI. Automation is a key aspect in the efficient handling"
+      },
+      "conditions": {
+        "eligible_countries": "Europe Cybersecurity Work Programme 2025-2027 Regulation (EU) 2021/887 of the European Parliament and of the Council of 20 May 2021 establishing the European Cybersecurity Industrial, Technology and Research Competence Centre and the Network of National Coordination Centres Call document and a",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 16911,
+        "main_content_length": 15458,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "digital_europe",
+    "source_name": "Digital Europe",
+    "list_data": {
+      "title": "Cross-Border Cyber Hubs",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-ECCC-2026-DEPLOY-CYBER-10-CBCH?isExactMatch=true&status=31094502&frameworkProgramme=43152860&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "09 December 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Digital Europe Programme (DIGITAL)",
+        "call": null,
+        "type_of_action": "DIGITAL-JU-SIMPLE DIGITAL JU Simple Grants",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "09 December 2025",
+        "deadline_date": "28 May 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2025\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nDIGITAL-ECCC-2026-DEPLOY-CYBER-10-CBCH - DIGITAL-JU-SIMPLE DIGITAL JU Simple Grants\n\t2 000 000\tSingle-stage\t2025-12-09\t\n2026-05-28\n\t\n\t\n1\n\n\nDIGITAL-ECCC-2026-DEPLOY-CYBER-10-NCH - DIGITAL-JU-SIMPLE DIGITAL JU Simple Grants\n\t2 000 000\tSingle-stage\t2025-12-09\t\n2026-05-28\n\t\n\t\n1",
+        "amount": "2000000",
+        "currency": "EUR",
+        "year": "2025"
+      },
+      "sections_found": [
+        "Conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Submission and evaluation processes",
+        "5b. Evaluation and award: Award criteria, scoring and thresholds",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Call document and annexes:",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": "World-class Cross-Border Cyber Hubs across the Union for pooling data on cybersecurity threats between several Member States, equipped with a highly secure infrastructures and advanced data analytics tools for detecting, gathering and storing data on cybersecurity threats, analysing this data, and sharing and reporting CTI, reviews and analyses. Sharing of Threat Intelligence between National Cyber Hubs, and information sharing agreements with competent authorities and networks, including CSIRTs",
+        "scope": "also covers the acquisition and/or adoption of common (automation) tools, processes and shared data infrastructures for the management and sharing of contextualised and actionable cybersecurity operational information across the EU. Well-established open standards for CTI sharing (e.g. MISP Standard2) or automation of advisory information (e.g. CSAF3) and cybersecurity related messages (e.g. by IntelMQ) should be considered. Cross-Border Cyber Hubs could also foresee the possibility to monitor u"
+      },
+      "conditions": {
+        "eligible_countries": "Europe Cybersecurity Work Programme 2025-2027 Regulation (EU) 2021/887 of the European Parliament and of the Council of 20 May 2021 establishing the European Cybersecurity Industrial, Technology and Research Competence Centre and the Network of National Coordination Centres Call document and a",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 14830,
+        "main_content_length": 13368,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "digital_europe",
+    "source_name": "Digital Europe",
+    "list_data": {
+      "title": "“SMALL GRANTS 2” Competition within the EU Code Week Initiative!",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12584?isExactMatch=true&status=31094502&frameworkProgramme=43152860&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "05 December 2025"
+    },
+    "detail_data": {
+      "url_type": "competitive-calls-cs",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": null,
+        "call": null,
+        "type_of_action": null,
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "05 December 2025",
+        "deadline_date": "05 February 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": false,
+        "raw_text": null,
+        "amount": null,
+        "currency": "EUR",
+        "year": null
+      },
+      "sections_found": [
+        "General Information",
+        "Submission & evaluation process",
+        "Further information",
+        "Task description"
+      ],
+      "description": {
+        "topic_description": null,
+        "expected_outcome": null,
+        "scope": null
+      },
+      "conditions": {
+        "eligible_countries": null,
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 4245,
+        "main_content_length": 2743,
+        "has_budget_table": false,
+        "table_count": 0
+      }
+    }
+  },
+  {
+    "source": "digital_europe",
+    "source_name": "Digital Europe",
+    "list_data": {
+      "title": "Second call for innovation studies for the development of generative AI models",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/11502?isExactMatch=true&status=31094502&frameworkProgramme=43152860&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "03 December 2025"
+    },
+    "detail_data": {
+      "url_type": "competitive-calls-cs",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": null,
+        "call": null,
+        "type_of_action": null,
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "03 December 2025",
+        "deadline_date": "25 February 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": false,
+        "raw_text": null,
+        "amount": null,
+        "currency": "EUR",
+        "year": null
+      },
+      "sections_found": [
+        "General Information",
+        "Submission & evaluation process",
+        "Further information",
+        "Task description"
+      ],
+      "description": {
+        "topic_description": null,
+        "expected_outcome": null,
+        "scope": "of activities eligible to be funded by the FFplus project. Revenue generated through deployment of the developed model during the funding phase of the study needs to be reported and impacts the final funding of the study. The innovation studies will receive support from the project with a range of actions relating to interactions with the project and also relating to potential collaborations with other sub-projects. Furthermore, direct support for each individual innovation study will be provid"
+      },
+      "conditions": {
+        "eligible_countries": null,
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 29959,
+        "main_content_length": 28434,
+        "has_budget_table": false,
+        "table_count": 0
+      }
+    }
+  },
+  {
+    "source": "digital_europe",
+    "source_name": "Digital Europe",
+    "list_data": {
+      "title": "Lab to Fab Accelerators for Advanced Packaging and heterogeneous integration",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-JU-Chips-2025-SG-LFA?isExactMatch=true&status=31094502&frameworkProgramme=43152860&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "03 December 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Digital Europe Programme (DIGITAL)",
+        "call": null,
+        "type_of_action": "DIGITAL-JU-SIMPLE DIGITAL JU Simple Grants",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "03 December 2025",
+        "deadline_date": "25 February 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2025\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nDIGITAL-JU-Chips-2025-SG-LFA - DIGITAL-JU-SIMPLE DIGITAL JU Simple Grants\n\t50 000 000\tSingle-stage\t2025-12-03\t\n2026-02-25\n\t\n500000 to 15000000\n\t\n5",
+        "amount": "50000000",
+        "currency": "EUR",
+        "year": "2025"
+      },
+      "sections_found": [
+        "Conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Submission and evaluation processes",
+        "5b. Evaluation and award: Award criteria, scoring and thresholds",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Call document and annexes:",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": "This topic will open up new opportunities for European-based semiconductor packaging companies and their supply chain by building on currently available services of RTOs and all Chips JU pilot lines. The LFA projects should prepare and speed up the transfer of technologies from pilot lines to industrial deployment. In addition, projects should expand the advanced packaging ecosystem in Europe and boost its competitiveness by offering a fast path towards industrialization of European semiconduct",
+        "scope": null
+      },
+      "conditions": {
+        "eligible_countries": "EU Financial Regulation 2024/2509 Rules for Legal Entity Validation, LEAR Appointment and Financial Capacity Assessment EU Grants AGA — Annotated Model Grant Agreement Funding & Tenders Portal Online Manual Funding & Tenders Portal Terms and Conditions Funding & Tenders Portal Privacy Statem",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 6410,
+        "main_content_length": 4852,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "digital_europe",
+    "source_name": "Digital Europe",
+    "list_data": {
+      "title": "advanced packaging of chiplets and heterogeneous integration in Europe",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-JU-Chips-2025-CSA-LFA?isExactMatch=true&status=31094502&frameworkProgramme=43152860&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "03 December 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Digital Europe Programme (DIGITAL)",
+        "call": null,
+        "type_of_action": "DIGITAL-JU-CSA DIGITAL JU Coordination and Support Actions",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "03 December 2025",
+        "deadline_date": "25 February 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2025\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nDIGITAL-JU-Chips-2025-CSA-LFA - DIGITAL-JU-CSA DIGITAL JU Coordination and Support Actions\n\t2 000 000\tSingle-stage\t2025-12-03\t\n2026-02-25\n\t\n500000 to 2000000\n\t\n1",
+        "amount": "2000000",
+        "currency": "EUR",
+        "year": "2025"
+      },
+      "sections_found": [
+        "Conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Submission and evaluation processes",
+        "5b. Evaluation and award: Award criteria, scoring and thresholds",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Call document and annexes:",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": "This CSA is expected to deliver a more resilient, sustainable, and competitive European advanced packaging ecosystem through focused collaboration, standardization, and workforce development. The following outcomes are expected: Resilient & Diversified Supply Chains (Addressing Supply Network Ecosystems) A demonstrably more resilient European supply chain for advanced packaging, evidenced by a publicly available vulnerability assessment for key sectors (automotive, aerospace, healthcare, secu",
+        "scope": null
+      },
+      "conditions": {
+        "eligible_countries": "EU Financial Regulation 2024/2509 Rules for Legal Entity Validation, LEAR Appointment and Financial Capacity Assessment EU Grants AGA — Annotated Model Grant Agreement Funding & Tenders Portal Online Manual Funding & Tenders Portal Terms and Conditions Funding & Tenders Portal Privacy Statem",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 7268,
+        "main_content_length": 5721,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "digital_europe",
+    "source_name": "Digital Europe",
+    "list_data": {
+      "title": "TU Graz GreenChips-EDU Scholarship",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12447?isExactMatch=true&status=31094502&frameworkProgramme=43152860&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "01 December 2025"
+    },
+    "detail_data": {
+      "url_type": "competitive-calls-cs",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": null,
+        "call": null,
+        "type_of_action": null,
+        "grant_type": null,
+        "deadline_model": "multiple",
+        "opening_date": "01 December 2025",
+        "deadline_date": null,
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": false,
+        "raw_text": null,
+        "amount": null,
+        "currency": "EUR",
+        "year": null
+      },
+      "sections_found": [
+        "General Information",
+        "Submission & evaluation process",
+        "GreenChips-EDU Scholarship",
+        "1. Purpose of the call",
+        "2. Type of grants",
+        "2.1. Coverage for tuition and registration fees",
+        "2.2. Coverage for participating specialised courses/trainings",
+        "2.3. Coverage for the costs of issuing documentation",
+        "2.4. Contribution to the costs of short-term mobility stays related to the Master's Degree",
+        "2.5. Contribution to the expenses of long-term mobility stays related to the Master's Degree",
+        "2.6. Contribution to expenses for scientific achievements during the mobility stay",
+        "3. Who can apply for this grant?",
+        "3.1 Applicants criteria",
+        "4. Submission of applications",
+        "4.1 Application method and documentation",
+        "5.1. (20 points) Academic performance (r1)",
+        "5.2. (5 points) Additional academic merits (r2)",
+        "5.3. (5 points) Professional experience (r3)",
+        "5.4. (2 points) Positive gender discrimination (r4)",
+        "5.5. (2 points) Situation of vulnerability (r5)",
+        "5.6. (1 point) Motivation and alignment with the call (r6)",
+        "6.  Final Report",
+        "Form A : Cover Letter",
+        "Form B: Application of Grant (Checklist)",
+        "Distance Band Support",
+        "Further information",
+        "Task description",
+        "Disclaimer"
+      ],
+      "description": {
+        "topic_description": null,
+        "expected_outcome": null,
+        "scope": "of coverage: Waiver of Tuition Fees for all first-time enrolled credits, provided they align with the academic path designed for the academic activity Coverage of any mandatory administrative fees Coverage of any optional fees, if they align with the goals of the scholarship programme For students, enrolled in a double degree programme, tuitions and fees occurring at host institution For students enrolled in a double degree programme, cost related to the issuance of the Master’s Degree certific"
+      },
+      "conditions": {
+        "eligible_countries": null,
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 27044,
+        "main_content_length": 25599,
+        "has_budget_table": false,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "digital_europe",
+    "source_name": "Digital Europe",
+    "list_data": {
+      "title": "Call for applications for grant to support educational programmes in the field of certification and evaluation in accordance with the requirements of the EUCC cybersecurity certification scheme, within the framework of financial support to third parties.",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12442?isExactMatch=true&status=31094502&frameworkProgramme=43152860&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "25 November 2025"
+    },
+    "detail_data": {
+      "url_type": "competitive-calls-cs",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": null,
+        "call": null,
+        "type_of_action": null,
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "25 November 2025",
+        "deadline_date": "31 January 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": false,
+        "raw_text": null,
+        "amount": null,
+        "currency": "EUR",
+        "year": null
+      },
+      "sections_found": [
+        "General Information",
+        "Submission & evaluation process",
+        "Further information",
+        "Task description"
+      ],
+      "description": {
+        "topic_description": null,
+        "expected_outcome": null,
+        "scope": null
+      },
+      "conditions": {
+        "eligible_countries": null,
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 7565,
+        "main_content_length": 5683,
+        "has_budget_table": false,
+        "table_count": 0
+      }
+    }
+  },
+  {
+    "source": "digital_europe",
+    "source_name": "Digital Europe",
+    "list_data": {
+      "title": "Small grant program for local coding projects within the EU Code Week initiative of the Code4Europe (C4EU) project.",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12443?isExactMatch=true&status=31094502&frameworkProgramme=43152860&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "25 November 2025"
+    },
+    "detail_data": {
+      "url_type": "competitive-calls-cs",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": null,
+        "call": null,
+        "type_of_action": null,
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "25 November 2025",
+        "deadline_date": "08 February 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": false,
+        "raw_text": null,
+        "amount": null,
+        "currency": "EUR",
+        "year": null
+      },
+      "sections_found": [
+        "General Information",
+        "Submission & evaluation process",
+        "Further information",
+        "Task description"
+      ],
+      "description": {
+        "topic_description": null,
+        "expected_outcome": null,
+        "scope": null
+      },
+      "conditions": {
+        "eligible_countries": null,
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 4005,
+        "main_content_length": 2401,
+        "has_budget_table": false,
+        "table_count": 0
+      }
+    }
+  },
+  {
+    "source": "digital_europe",
+    "source_name": "Digital Europe",
+    "list_data": {
+      "title": "Granty na Kodowanie",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12344?isExactMatch=true&status=31094502&frameworkProgramme=43152860&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "20 November 2025"
+    },
+    "detail_data": {
+      "url_type": "competitive-calls-cs",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": null,
+        "call": null,
+        "type_of_action": null,
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "20 November 2025",
+        "deadline_date": "30 January 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": false,
+        "raw_text": null,
+        "amount": null,
+        "currency": "EUR",
+        "year": null
+      },
+      "sections_found": [
+        "General Information",
+        "Submission & evaluation process",
+        "Further information",
+        "Task description"
+      ],
+      "description": {
+        "topic_description": null,
+        "expected_outcome": null,
+        "scope": null
+      },
+      "conditions": {
+        "eligible_countries": null,
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 4772,
+        "main_content_length": 3360,
+        "has_budget_table": false,
+        "table_count": 0
+      }
+    }
+  },
+  {
+    "source": "digital_europe",
+    "source_name": "Digital Europe",
+    "list_data": {
+      "title": "Call for Pilots Work Strand 1 - Connecting Existing Local Digital Twins",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12342?isExactMatch=true&status=31094502&frameworkProgramme=43152860&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "14 November 2025"
+    },
+    "detail_data": {
+      "url_type": "competitive-calls-cs",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": null,
+        "call": null,
+        "type_of_action": null,
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "14 November 2025",
+        "deadline_date": "15 January 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": false,
+        "raw_text": null,
+        "amount": null,
+        "currency": "EUR",
+        "year": null
+      },
+      "sections_found": [
+        "General Information",
+        "Submission & evaluation process",
+        "Further information",
+        "Task description"
+      ],
+      "description": {
+        "topic_description": null,
+        "expected_outcome": null,
+        "scope": "WS1 is dedicated to connecting and federating LDTs across cities, communities and regions to create a unified, interoperable and reusable EU LDT ecosystem. In doing so, WS1 will support communities in accessing a comprehensive set of technical open specifications and open-source software components to interconnect their LDTs through Data Spaces, with most solutions"
+      },
+      "conditions": {
+        "eligible_countries": "countries. Eligible countries include EU Member States (including outermost regions and overseas territories), Norway, Iceland, Liechtenstein, and listed EEA and DEP Associated countries. To ensure the replicability and scalability of the pilot, each consortium is encouraged to involve at least one",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 10810,
+        "main_content_length": 9298,
+        "has_budget_table": false,
+        "table_count": 0
+      }
+    }
+  },
+  {
+    "source": "digital_europe",
+    "source_name": "Digital Europe",
+    "list_data": {
+      "title": "Small Grants Coding Projects for the Nordic Region",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12201?isExactMatch=true&status=31094502&frameworkProgramme=43152860&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "07 November 2025"
+    },
+    "detail_data": {
+      "url_type": "competitive-calls-cs",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": null,
+        "call": null,
+        "type_of_action": null,
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "07 November 2025",
+        "deadline_date": "12 January 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": false,
+        "raw_text": null,
+        "amount": null,
+        "currency": "EUR",
+        "year": null
+      },
+      "sections_found": [
+        "General Information",
+        "Submission & evaluation process",
+        "Further information",
+        "Task description"
+      ],
+      "description": {
+        "topic_description": null,
+        "expected_outcome": null,
+        "scope": null
+      },
+      "conditions": {
+        "eligible_countries": null,
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 4214,
+        "main_content_length": 2740,
+        "has_budget_table": false,
+        "table_count": 0
+      }
+    }
+  },
+  {
+    "source": "creative_europe",
+    "source_name": "Creative Europe",
+    "list_data": {
+      "title": "Skills and Talent Development",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2026-TRAINING?isExactMatch=true&status=31094502&frameworkProgramme=43251814&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "09 December 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Creative Europe Programme (CREA)",
+        "call": null,
+        "type_of_action": "CREA-LS CREA Lump Sum Grants",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "09 December 2025",
+        "deadline_date": "16 April 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nCREA-MEDIA-2026-TRAINING - CREA-LS CREA Lump Sum Grants\n\t9 500 000\tSingle-stage\t2025-12-09\t\n2026-04-16\n\t\n\t",
+        "amount": "9500000",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "Conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Submission and evaluation processes",
+        "5b. Evaluation and award: Award criteria, scoring and thresholds",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Call document and annexes:",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": null,
+        "scope": null
+      },
+      "conditions": {
+        "eligible_countries": "EU Financial Regulation 2024/2509 Rules for Legal Entity Validation, LEAR Appointment and Financial Capacity Assessment EU Grants AGA — Annotated Model Grant Agreement Funding & Tenders Portal Online Manual Funding & Tenders Portal Terms and Conditions Funding & Tenders Portal Privacy Statem",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 8102,
+        "main_content_length": 6642,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "creative_europe",
+    "source_name": "Creative Europe",
+    "list_data": {
+      "title": "European Film Distribution",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2026-FILMDIST?isExactMatch=true&status=31094502&frameworkProgramme=43251814&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "04 December 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Creative Europe Programme (CREA)",
+        "call": null,
+        "type_of_action": "CREA-PJG CREA Project Grants",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "04 December 2025",
+        "deadline_date": "23 April 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nCREA-MEDIA-2026-FILMDIST - CREA-PJG CREA Project Grants\n\t34 000 000\tSingle-stage\t2025-12-04\t\n2026-04-23\n\t\n\t",
+        "amount": "34000000",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "Conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Submission and evaluation processes",
+        "5b. Evaluation and award: Award criteria, scoring and thresholds",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Call document and annexes:",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": null,
+        "scope": null
+      },
+      "conditions": {
+        "eligible_countries": "Europe MEDIA Database Model Grant Agreements (MGA) CREA MGA Additional documents: CREA Annual Work Programmes CREA Regulation 2021/818 EU Financial Regulation 2024/2509 Rules for Legal Entity Validation, LEAR Appointment and Financial Capacity Assessment EU Grants AGA — Annotated Model Gran",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 7823,
+        "main_content_length": 6398,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "creative_europe",
+    "source_name": "Creative Europe",
+    "list_data": {
+      "title": "Networks of European Festivals",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2026-FESTNET?isExactMatch=true&status=31094502&frameworkProgramme=43251814&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "04 December 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Creative Europe Programme (CREA)",
+        "call": null,
+        "type_of_action": "CREA-PJG CREA Project Grants",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "04 December 2025",
+        "deadline_date": "14 April 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nCREA-MEDIA-2026-FESTNET - CREA-PJG CREA Project Grants\n\t6 000 000\tSingle-stage\t2025-12-04\t\n2026-04-14\n\t\n\t",
+        "amount": "6000000",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "Conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Submission and evaluation processes",
+        "5b. Evaluation and award: Award criteria, scoring and thresholds",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Call document and annexes:",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": null,
+        "scope": null
+      },
+      "conditions": {
+        "eligible_countries": "EU Financial Regulation 2024/2509 Rules for Legal Entity Validation, LEAR Appointment and Financial Capacity Assessment EU Grants AGA — Annotated Model Grant Agreement Funding & Tenders Portal Online Manual Funding & Tenders Portal Terms and Conditions Funding & Tenders Portal Privacy State",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 6800,
+        "main_content_length": 5339,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "creative_europe",
+    "source_name": "Creative Europe",
+    "list_data": {
+      "title": "Support for the implementation of the European Heritage Label",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-CULT-2026-EU-HERITAGE-LABEL?isExactMatch=true&status=31094502&frameworkProgramme=43251814&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "26 November 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Creative Europe Programme (CREA)",
+        "call": null,
+        "type_of_action": "CREA-LS CREA Lump Sum Grants",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "26 November 2025",
+        "deadline_date": "11 February 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nCREA-CULT-2026-EU-HERITAGE-LABEL - CREA-LS CREA Lump Sum Grants\n\t3 000 000\tSingle-stage\t2025-11-26\t\n2026-02-11\n\t\n\t",
+        "amount": "3000000",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "Conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Submission and evaluation processes",
+        "5b. Evaluation and award: Award criteria, scoring and thresholds",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Call document and annexes:",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": null,
+        "scope": "Themes and priorities (scope) The action will aim at strengthening of the EHL members around a Community of practice for the years 2026-2029 which imply strengthening the presence of the EHL action, the impact of its activities and the development of a shared vision among its members: Increase the presence and understanding of the EHL Action: Externally: Strengthen the visibility of the EHL Action across participating countries and among targeted audiences through targeted outreach, media eng"
+      },
+      "conditions": {
+        "eligible_countries": "EU Financial Regulation 2024/2509 Rules for Legal Entity Validation, LEAR Appointment and Financial Capacity Assessment EU Grants AGA — Annotated Model Grant Agreement Funding & Tenders Portal Online Manual Funding & Tenders Portal Terms and Conditions Funding & Tenders Portal Privacy State",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 17521,
+        "main_content_length": 15989,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "creative_europe",
+    "source_name": "Creative Europe",
+    "list_data": {
+      "title": "Perform EU",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-CULT-2026-PERFORM-EU?isExactMatch=true&status=31094502&frameworkProgramme=43251814&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "30 October 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Creative Europe Programme (CREA)",
+        "call": null,
+        "type_of_action": "CREA-LS CREA Lump Sum Grants",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "30 October 2025",
+        "deadline_date": "15 January 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nCREA-CULT-2026-PERFORM-EU - CREA-LS CREA Lump Sum Grants\n\t2 000 000\tSingle-stage\t2025-10-30\t\n2026-01-15\n\t\n\t",
+        "amount": "2000000",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "Conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Submission and evaluation processes",
+        "5b. Evaluation and award: Award criteria, scoring and thresholds",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Call document and annexes:",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": null,
+        "scope": "Applications must present a programme of activities that will develop, implement and maintain sustainable models for cross-border touring and digital distribution in the performing arts sector. They must include at least the 6 following types of activities: The management and the coordination of the overall project; The design, implementation and management of open call(s) to select and regrant at least 25 projects to support cross-border touring and digital distribution of performing arts wor"
+      },
+      "conditions": {
+        "eligible_countries": "EU Financial Regulation 2024/2509 Rules for Legal Entity Validation, LEAR Appointment and Financial Capacity Assessment EU Grants AGA — Annotated Model Grant Agreement Funding & Tenders Portal Online Manual Funding & Tenders Portal Terms and Conditions Funding & Tenders Portal Privacy State",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 11190,
+        "main_content_length": 9767,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "creative_europe",
+    "source_name": "Creative Europe",
+    "list_data": {
+      "title": "Creative Innovation Lab",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-CROSS-2026-INNOVLAB?isExactMatch=true&status=31094502&frameworkProgramme=43251814&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "23 October 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Creative Europe Programme (CREA)",
+        "call": null,
+        "type_of_action": "CREA-PJG CREA Project Grants",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "23 October 2025",
+        "deadline_date": "23 April 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nCREA-CROSS-2026-INNOVLAB - CREA-PJG CREA Project Grants\n\t7 021 561\tSingle-stage\t2025-10-23\t\n2026-04-23\n\t\n\t",
+        "amount": "7021561",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "Conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Submission and evaluation processes",
+        "5b. Evaluation and award: Award criteria, scoring and thresholds",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Call document and annexes:",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": null,
+        "scope": null
+      },
+      "conditions": {
+        "eligible_countries": "EU Financial Regulation 2024/2509 Rules for Legal Entity Validation, LEAR Appointment and Financial Capacity Assessment EU Grants AGA — Annotated Model Grant Agreement Funding & Tenders Portal Online Manual Funding & Tenders Portal Terms and Conditions Funding & Tenders Portal Privacy Statem",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 11720,
+        "main_content_length": 10272,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "creative_europe",
+    "source_name": "Creative Europe",
+    "list_data": {
+      "title": "NEWS - Media Literacy",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-CROSS-2026-MEDIALITERACY?isExactMatch=true&status=31094502&frameworkProgramme=43251814&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "23 October 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Creative Europe Programme (CREA)",
+        "call": null,
+        "type_of_action": "CREA-PJG CREA Project Grants",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "23 October 2025",
+        "deadline_date": "11 March 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nCREA-CROSS-2026-MEDIALITERACY - CREA-PJG CREA Project Grants\n\t3 000 000\tSingle-stage\t2025-10-23\t\n2026-03-11\n\t\n\t",
+        "amount": "3000000",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "Conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Submission and evaluation processes",
+        "5b. Evaluation and award: Award criteria, scoring and thresholds",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Call document and annexes:",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": null,
+        "scope": "Support is foreseen for collaborative projects with clearly defined objectives to advance media literacy, addressing the following priorities: Provide solutions that enable citizens to develop a critical approach to the media, and to recognise and appropriately react to disinformation, information manipulation techniques, and other challenges in the online media environment. Build on and scale up best practices from innovative media literacy projects that take into account a changing media ecos"
+      },
+      "conditions": {
+        "eligible_countries": "EU Financial Regulation 2024/2509 Rules for Legal Entity Validation, LEAR Appointment and Financial Capacity Assessment EU Grants AGA — Annotated Model Grant Agreement Funding & Tenders Portal Online Manual Funding & Tenders Portal Terms and Conditions Funding & Tenders Portal Privacy Statem",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 9361,
+        "main_content_length": 7912,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "creative_europe",
+    "source_name": "Creative Europe",
+    "list_data": {
+      "title": "NEWS - JOURNALISM PARTNERSHIPS - COLLABORATIONS",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-CROSS-2026-JOURPART-COLLABORATIONS?isExactMatch=true&status=31094502&frameworkProgramme=43251814&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "23 October 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Creative Europe Programme (CREA)",
+        "call": null,
+        "type_of_action": "CREA-PJG CREA Project Grants",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "23 October 2025",
+        "deadline_date": "04 February 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nCREA-CROSS-2026-JOURPART-COLLABORATIONS - CREA-PJG CREA Project Grants\n\t6 900 000\tSingle-stage\t2025-10-23\t\n2026-02-04\n\t\n\t\n\n\nCREA-CROSS-2026-JOURPART-PLURALISM - CREA-PJG CREA Project Grants\n\t6 900 000\tSingle-stage\t2025-10-23\t\n2026-02-04\n\t\n\t",
+        "amount": "6900000",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "Conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Submission and evaluation processes",
+        "5b. Evaluation and award: Award criteria, scoring and thresholds",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Call document and annexes:",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": null,
+        "scope": "The European news media sectors play a crucial and valuable role in Europe. Yet, they are facing multiple challenges. Partially as a result of the digital shift, with readers shifting to online sources and traditional news outlets losing advertising revenues, the economic sustainability of professional journalism has come under pressure. Many media at the local level as well as those putting their public interest mission before profits, have had to close down, weakening media pluralism and posin"
+      },
+      "conditions": {
+        "eligible_countries": "EU Financial Regulation 2024/2509 Rules for Legal Entity Validation, LEAR Appointment and Financial Capacity Assessment EU Grants AGA — Annotated Model Grant Agreement Funding & Tenders Portal Online Manual Funding & Tenders Portal Terms and Conditions Funding & Tenders Portal Privacy State",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 15640,
+        "main_content_length": 14129,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "creative_europe",
+    "source_name": "Creative Europe",
+    "list_data": {
+      "title": "NEWS - JOURNALISM PARTNERSHIPS - PLURALISM",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-CROSS-2026-JOURPART-PLURALISM?isExactMatch=true&status=31094502&frameworkProgramme=43251814&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "23 October 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Creative Europe Programme (CREA)",
+        "call": null,
+        "type_of_action": "CREA-PJG CREA Project Grants",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "23 October 2025",
+        "deadline_date": "04 February 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nCREA-CROSS-2026-JOURPART-COLLABORATIONS - CREA-PJG CREA Project Grants\n\t6 900 000\tSingle-stage\t2025-10-23\t\n2026-02-04\n\t\n\t\n\n\nCREA-CROSS-2026-JOURPART-PLURALISM - CREA-PJG CREA Project Grants\n\t6 900 000\tSingle-stage\t2025-10-23\t\n2026-02-04\n\t\n\t",
+        "amount": "6900000",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "Conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Submission and evaluation processes",
+        "5b. Evaluation and award: Award criteria, scoring and thresholds",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Call document and annexes:",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": null,
+        "scope": "The European news media sectors play a crucial and valuable role in Europe. Yet, they are facing multiple challenges. Partially as a result of the digital shift, with readers shifting to online sources and traditional news outlets losing advertising revenues, the economic sustainability of professional journalism has come under pressure. Many media at the local level as well as those putting their public interest mission before profits, have had to close down, weakening media pluralism and posin"
+      },
+      "conditions": {
+        "eligible_countries": "EU Financial Regulation 2024/2509 Rules for Legal Entity Validation, LEAR Appointment and Financial Capacity Assessment EU Grants AGA — Annotated Model Grant Agreement Funding & Tenders Portal Online Manual Funding & Tenders Portal Terms and Conditions Funding & Tenders Portal Privacy State",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 15977,
+        "main_content_length": 14481,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "creative_europe",
+    "source_name": "Creative Europe",
+    "list_data": {
+      "title": "Circulation of European literary works",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-CULT-2026-LIT?isExactMatch=true&status=31094502&frameworkProgramme=43251814&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "15 October 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Creative Europe Programme (CREA)",
+        "call": null,
+        "type_of_action": "CREA-LS CREA Lump Sum Grants",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "15 October 2025",
+        "deadline_date": "29 January 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nCREA-CULT-2026-LIT - CREA-LS CREA Lump Sum Grants\n\t5 000 000\tSingle-stage\t2025-10-15\t\n2026-01-29\n\t\n\t",
+        "amount": "5000000",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "Conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Proposal page limits and layout",
+        "4. Evaluation",
+        "5. Indicative timetable for evaluation and grant agreement",
+        "Call document and annexes:",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": null,
+        "scope": "Translation, publication, promotion, and distribution activities as well as activities addressing the themes and priorities described above. More specifically: Work packages of eligible works of fiction to be translated, published, distributed, and promoted, based on a sound editorial, distribution and promotion strategy. Activities to facilitate collaboration between different actors of the book and publishing value chain - authors, translators, publishers, distributors, booksellers, libraries"
+      },
+      "conditions": {
+        "eligible_countries": "EU Financial Regulation 2024/2509 Rules for Legal Entity Validation, LEAR Appointment and Financial Capacity Assessment EU Grants AGA — Annotated Model Grant Agreement Funding & Tenders Portal Online Manual Funding & Tenders Portal Terms and Conditions Funding & Tenders Portal Privacy State",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 10714,
+        "main_content_length": 9242,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "creative_europe",
+    "source_name": "Creative Europe",
+    "list_data": {
+      "title": "Markets and Networking",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2026-MARKETNET?isExactMatch=true&status=31094502&frameworkProgramme=43251814&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "30 September 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Creative Europe Programme (CREA)",
+        "call": null,
+        "type_of_action": "CREA-PJG CREA Project Grants",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "30 September 2025",
+        "deadline_date": "20 January 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nCREA-MEDIA-2026-MARKETNET - CREA-PJG CREA Project Grants\n\t16 500 000\tSingle-stage\t2025-09-30\t\n2026-01-20\n\t\n\t",
+        "amount": "16500000",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "Conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Submission and evaluation processes",
+        "5b. Evaluation and award: Award criteria, scoring and thresholds",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Call document and annexes:",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": null,
+        "scope": "Markets: Industry events, physical, digital or hybrid, focused on business-to-business exchanges among European audiovisual professionals, facilitating co-productions and sales and showing a structuring effect on the European audiovisual eco-system as well as impact on the promotion and sales of European audiovisual works on global markets. Activities and events should adapt to current market trends and include innovative content (videogames, VR, XR, AI, cross-media), animation or genre audiovi"
+      },
+      "conditions": {
+        "eligible_countries": "EU Financial Regulation 2024/2509 Rules for Legal Entity Validation, LEAR Appointment and Financial Capacity Assessment EU Grants AGA — Annotated Model Grant Agreement Funding & Tenders Portal Online Manual Funding & Tenders Portal Terms and Conditions Funding & Tenders Portal Privacy State",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 9160,
+        "main_content_length": 7713,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "creative_europe",
+    "source_name": "Creative Europe",
+    "list_data": {
+      "title": "Innovative tools and business models",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2026-INNOVBUSMOD?isExactMatch=true&status=31094502&frameworkProgramme=43251814&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "30 September 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Creative Europe Programme (CREA)",
+        "call": null,
+        "type_of_action": "CREA-PJG CREA Project Grants",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "30 September 2025",
+        "deadline_date": "15 January 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nCREA-MEDIA-2026-INNOVBUSMOD - CREA-PJG CREA Project Grants\n\t10 500 000\tSingle-stage\t2025-09-30\t\n2026-01-15\n\t\n\t",
+        "amount": "10500000",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "Conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Submission and evaluation processes",
+        "5b. Evaluation and award: Award criteria, scoring and thresholds",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Call document and annexes:",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": null,
+        "scope": null
+      },
+      "conditions": {
+        "eligible_countries": "EU Financial Regulation 2024/2509 Rules for Legal Entity Validation, LEAR Appointment and Financial Capacity Assessment EU Grants AGA — Annotated Model Grant Agreement Funding & Tenders Portal Online Manual Funding & Tenders Portal Terms and Conditions Funding & Tenders Portal Privacy Statem",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 8441,
+        "main_content_length": 6964,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "creative_europe",
+    "source_name": "Creative Europe",
+    "list_data": {
+      "title": "European co-development",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2026-CODEV?isExactMatch=true&status=31094502&frameworkProgramme=43251814&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "30 September 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Creative Europe Programme (CREA)",
+        "call": null,
+        "type_of_action": "CREA-LS CREA Lump Sum Grants",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "30 September 2025",
+        "deadline_date": "25 February 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nCREA-MEDIA-2026-CODEV - CREA-LS CREA Lump Sum Grants\n\t9 000 000\tSingle-stage\t2025-09-30\t\n2026-02-25\n\t\n\t",
+        "amount": "9000000",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "Conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Submission and evaluation processes",
+        "5b. Evaluation and award: Award criteria, scoring and thresholds",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Call document and annexes:",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": null,
+        "scope": "The objective of the support to European co-development is to support the cooperation among European production companies that are developing works with a strong international audience potential."
+      },
+      "conditions": {
+        "eligible_countries": "EU Financial Regulation 2024/2509 Rules for Legal Entity Validation, LEAR Appointment and Financial Capacity Assessment EU Grants AGA — Annotated Model Grant Agreement Funding & Tenders Portal Online Manual Funding & Tenders Portal Terms and Conditions Funding & Tenders Portal Privacy State",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 7721,
+        "main_content_length": 6276,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "creative_europe",
+    "source_name": "Creative Europe",
+    "list_data": {
+      "title": "Video games and immersive content development",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2026-DEVVGIM?isExactMatch=true&status=31094502&frameworkProgramme=43251814&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "30 September 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Creative Europe Programme (CREA)",
+        "call": null,
+        "type_of_action": "CREA-LS CREA Lump Sum Grants",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "30 September 2025",
+        "deadline_date": "11 February 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nCREA-MEDIA-2026-DEVVGIM - CREA-LS CREA Lump Sum Grants\n\t10 000 000\tSingle-stage\t2025-09-30\t\n2026-02-11\n\t\n\t",
+        "amount": "10000000",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "Conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Submission and evaluation processes",
+        "5b. Evaluation and award: Award criteria, scoring and thresholds",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Call document and annexes:",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": null,
+        "scope": "The objective of the support to Video games and immersive content development is to increase the capacity of European video game producers, XR studios and audiovisual production companies to develop video games and interactive immersive experiences with the potential to reach global audiences. The support also aims to improve the competiveness of the European video games industry and other companies producing interactive immersive content in European and international markets by enabling the ret"
+      },
+      "conditions": {
+        "eligible_countries": "EU Financial Regulation 2024/2509 Rules for Legal Entity Validation, LEAR Appointment and Financial Capacity Assessment EU Grants AGA — Annotated Model Grant Agreement Funding & Tenders Portal Online Manual Funding & Tenders Portal Terms and Conditions Funding & Tenders Portal Privacy State",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 7706,
+        "main_content_length": 6215,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "creative_europe",
+    "source_name": "Creative Europe",
+    "list_data": {
+      "title": "European VOD networks and operators",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2026-VODNET?isExactMatch=true&status=31094502&frameworkProgramme=43251814&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "30 September 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Creative Europe Programme (CREA)",
+        "call": null,
+        "type_of_action": "CREA-PJG CREA Project Grants",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "30 September 2025",
+        "deadline_date": "08 April 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nCREA-MEDIA-2026-VODNET - CREA-PJG CREA Project Grants\n\t8 000 000\tSingle-stage\t2025-09-30\t\n2026-04-08\n\t\n\t",
+        "amount": "8000000",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "Conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Submission and evaluation processes",
+        "5b. Evaluation and award: Award criteria, scoring and thresholds",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Call document and annexes:",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": null,
+        "scope": "and scale. Description of the activities to be funded under the call for proposals: Joint/collaborative actions across borders with the aim to improve the competitiveness and attractiveness of European VOD platforms offering a significant proportion of non-national European audiovisual works as well as to increase the accessibility, visibility, discoverability and prominence of European content for a wider global audience (European and international). Applications should present adequate stra"
+      },
+      "conditions": {
+        "eligible_countries": "EU Financial Regulation 2024/2509 Rules for Legal Entity Validation, LEAR Appointment and Financial Capacity Assessment EU Grants AGA — Annotated Model Grant Agreement Funding & Tenders Portal Online Manual Funding & Tenders Portal Terms and Conditions Funding & Tenders Portal Privacy Stateme",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 7220,
+        "main_content_length": 5750,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "erasmus",
+    "source_name": "Erasmus+",
+    "list_data": {
+      "title": "Capacity Building in the Field of Sport",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-SPORT-2026-CB?isExactMatch=true&status=31094502&frameworkProgramme=43353764&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "10 December 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Erasmus (ERASMUS )",
+        "call": null,
+        "type_of_action": "ERASMUS-LS ERASMUS Lump Sum Grants",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "10 December 2025",
+        "deadline_date": "05 March 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nERASMUS-SPORT-2026-CB - ERASMUS-LS ERASMUS Lump Sum Grants\n\t2 440 000\tSingle-stage\t2025-12-10\t\n2026-03-05\n\t\n\t",
+        "amount": "2440000",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "Conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Submission and evaluation processes",
+        "5b. Evaluation and award: Award criteria, scoring and thresholds",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Call document and annexes:",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": null,
+        "scope": "Capacity Building projects are international cooperation projects based on multilateral partnerships between organisations active in the field of sport in Programme and third countries not associated to the Programme in Region 1 (Western Balkans) and Region 2 (Neighbourhood East). They aim to support sport activities and policies in third countries not associated to the Programme as a vehicle to promote values as well as an educational tool to promote the personal and social development of indiv"
+      },
+      "conditions": {
+        "eligible_countries": "EU Member States, third countries associated to the Programme and third countries not associated to the Programme in regions 1 to 2 (to the exception of Belarus) Region 1 countries: Albania, Bosnia and Herzegovina, Kosovo, Montenegro Budget: EUR",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 7449,
+        "main_content_length": 5972,
+        "has_budget_table": true,
+        "table_count": 2
+      }
+    }
+  },
+  {
+    "source": "erasmus",
+    "source_name": "Erasmus+",
+    "list_data": {
+      "title": "Erasmus+ Virtual Exchanges in Western Balkans",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2026-VIRT-EXCH-WB?isExactMatch=true&status=31094502&frameworkProgramme=43353764&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "04 December 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Erasmus (ERASMUS )",
+        "call": null,
+        "type_of_action": "ERASMUS-LS ERASMUS Lump Sum Grants",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "04 December 2025",
+        "deadline_date": "26 March 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nERASMUS-EDU-2026-VIRT-EXCH-NE - ERASMUS-LS ERASMUS Lump Sum Grants\n\t2 040 948\tSingle-stage\t2025-12-04\t\n2026-03-26\n\t\n\t\n\n\nERASMUS-EDU-2026-VIRT-EXCH-SMC - ERASMUS-LS ERASMUS Lump Sum Grants\n\t1 646 667\tSingle-stage\t2025-12-04\t\n2026-03-26\n\t\n\t\n\n\nERASMUS-EDU-2026-VIRT-EXCH-SSA - ERASMUS-LS ERASMUS Lump Sum Grants\n\t5 174 285\tSingle-stage\t2025-12-04\t\n2026-03-26\n\t\n\t\n\n\nERASMUS-EDU-2026-VIRT-EXCH",
+        "amount": "2040948",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "Conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Submission and evaluation processes",
+        "5b. Evaluation and award: Award criteria, scoring and thresholds",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Call document and annexes:",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": null,
+        "scope": "ERASMUS+ VIRTUAL EXCHANGES Virtual exchanges projects consist of online people-to-people activities that promote intercultural dialogue and soft skills development. They make it possible for every young person to access high-quality international and cross-cultural education without physical mobility. While virtual debating or training does not fully replace the benefits of physical mobility, participants in virtual exchanges ought to reap some of the benefits of the international educational e"
+      },
+      "conditions": {
+        "eligible_countries": "EU Financial Regulation 2024/2509 Rules for Legal Entity Validation, LEAR Appointment and Financial Capacity Assessment EU Grants AGA — Annotated Model Grant Agreement Funding & Tenders Portal Online Manual Funding & Tenders Portal Terms and Conditions Funding & Tenders Portal Privacy Statemen",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 10616,
+        "main_content_length": 9119,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "erasmus",
+    "source_name": "Erasmus+",
+    "list_data": {
+      "title": "Erasmus+ Virtual Exchanges in Sub-Saharan Africa",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2026-VIRT-EXCH-SSA?isExactMatch=true&status=31094502&frameworkProgramme=43353764&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "04 December 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Erasmus (ERASMUS )",
+        "call": null,
+        "type_of_action": "ERASMUS-LS ERASMUS Lump Sum Grants",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "04 December 2025",
+        "deadline_date": "26 March 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nERASMUS-EDU-2026-VIRT-EXCH-NE - ERASMUS-LS ERASMUS Lump Sum Grants\n\t2 040 948\tSingle-stage\t2025-12-04\t\n2026-03-26\n\t\n\t\n\n\nERASMUS-EDU-2026-VIRT-EXCH-SMC - ERASMUS-LS ERASMUS Lump Sum Grants\n\t1 646 667\tSingle-stage\t2025-12-04\t\n2026-03-26\n\t\n\t\n\n\nERASMUS-EDU-2026-VIRT-EXCH-SSA - ERASMUS-LS ERASMUS Lump Sum Grants\n\t5 174 285\tSingle-stage\t2025-12-04\t\n2026-03-26\n\t\n\t\n\n\nERASMUS-EDU-2026-VIRT-EXCH",
+        "amount": "2040948",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "Conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Submission and evaluation processes",
+        "5b. Evaluation and award: Award criteria, scoring and thresholds",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Call document and annexes:",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": "ERASMUS+ VIRTUAL EXCHANGES Virtual exchanges projects consist of online people-to-people activities that promote intercultural dialogue and soft skills development. They make it possible for every young person to access high-quality international and cross-cultural education without physical mobility. While virtual debating or training does not fully replace the benefits of physical mobility, participants in virtual exchanges ought to reap some of the benefits of the international educational e",
+        "scope": "and themes (e.g. by introducing gender sensitivity aspects in the trainings). Special attention needs to be given to the inclusion of socially and economically vulnerable people and persons unable to apply for physical mobility. Further information can be found on the dedicated page of the Programme Guide (erasmus-plus.ec.europa.eu/erasmus-programme-guide), please check the latest version for 2026. 1 Soft skills include the ability to think critically, be curious and creative, to take initiati"
+      },
+      "conditions": {
+        "eligible_countries": "EU Financial Regulation 2024/2509 Rules for Legal Entity Validation, LEAR Appointment and Financial Capacity Assessment EU Grants AGA — Annotated Model Grant Agreement Funding & Tenders Portal Online Manual Funding & Tenders Portal Terms and Conditions Funding & Tenders Portal Privacy Statemen",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 10677,
+        "main_content_length": 9173,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "erasmus",
+    "source_name": "Erasmus+",
+    "list_data": {
+      "title": "Erasmus+ Virtual Exchanges in South Mediterranean Countries",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2026-VIRT-EXCH-SMC?isExactMatch=true&status=31094502&frameworkProgramme=43353764&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "04 December 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Erasmus (ERASMUS )",
+        "call": null,
+        "type_of_action": "ERASMUS-LS ERASMUS Lump Sum Grants",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "04 December 2025",
+        "deadline_date": "26 March 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nERASMUS-EDU-2026-VIRT-EXCH-NE - ERASMUS-LS ERASMUS Lump Sum Grants\n\t2 040 948\tSingle-stage\t2025-12-04\t\n2026-03-26\n\t\n\t\n\n\nERASMUS-EDU-2026-VIRT-EXCH-SMC - ERASMUS-LS ERASMUS Lump Sum Grants\n\t1 646 667\tSingle-stage\t2025-12-04\t\n2026-03-26\n\t\n\t\n\n\nERASMUS-EDU-2026-VIRT-EXCH-SSA - ERASMUS-LS ERASMUS Lump Sum Grants\n\t5 174 285\tSingle-stage\t2025-12-04\t\n2026-03-26\n\t\n\t\n\n\nERASMUS-EDU-2026-VIRT-EXCH",
+        "amount": "2040948",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "Conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Submission and evaluation processes",
+        "5b. Evaluation and award: Award criteria, scoring and thresholds",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Call document and annexes:",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": "ERASMUS+ VIRTUAL EXCHANGES Virtual exchanges projects consist of online people-to-people activities that promote intercultural dialogue and soft skills development. They make it possible for every young person to access high-quality international and cross-cultural education without physical mobility. While virtual debating or training does not fully replace the benefits of physical mobility, participants in virtual exchanges ought to reap some of the benefits of the international educational e",
+        "scope": "and themes (e.g. by introducing gender sensitivity aspects in the trainings). Special attention needs to be given to the inclusion of socially and economically vulnerable people and persons unable to apply for physical mobility. Further information can be found on the dedicated page of the Programme Guide (erasmus-plus.ec.europa.eu/erasmus-programme-guide), please check the latest version for 2026. 1 Soft skills include the ability to think critically, be curious and creative, to take initiati"
+      },
+      "conditions": {
+        "eligible_countries": "EU Financial Regulation 2024/2509 Rules for Legal Entity Validation, LEAR Appointment and Financial Capacity Assessment EU Grants AGA — Annotated Model Grant Agreement Funding & Tenders Portal Online Manual Funding & Tenders Portal Terms and Conditions Funding & Tenders Portal Privacy Statemen",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 10699,
+        "main_content_length": 9173,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "erasmus",
+    "source_name": "Erasmus+",
+    "list_data": {
+      "title": "Erasmus+ Virtual Exchanges in Neighbourhood East",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2026-VIRT-EXCH-NE?isExactMatch=true&status=31094502&frameworkProgramme=43353764&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "04 December 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Erasmus (ERASMUS )",
+        "call": null,
+        "type_of_action": "ERASMUS-LS ERASMUS Lump Sum Grants",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "04 December 2025",
+        "deadline_date": "26 March 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nERASMUS-EDU-2026-VIRT-EXCH-NE - ERASMUS-LS ERASMUS Lump Sum Grants\n\t2 040 948\tSingle-stage\t2025-12-04\t\n2026-03-26\n\t\n\t\n\n\nERASMUS-EDU-2026-VIRT-EXCH-SMC - ERASMUS-LS ERASMUS Lump Sum Grants\n\t1 646 667\tSingle-stage\t2025-12-04\t\n2026-03-26\n\t\n\t\n\n\nERASMUS-EDU-2026-VIRT-EXCH-SSA - ERASMUS-LS ERASMUS Lump Sum Grants\n\t5 174 285\tSingle-stage\t2025-12-04\t\n2026-03-26\n\t\n\t\n\n\nERASMUS-EDU-2026-VIRT-EXCH",
+        "amount": "2040948",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "Conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Submission and evaluation processes",
+        "5b. Evaluation and award: Award criteria, scoring and thresholds",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Call document and annexes:",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": null,
+        "scope": "ERASMUS+ VIRTUAL EXCHANGES Virtual exchanges projects consist of online people-to-people activities that promote intercultural dialogue and soft skills development. They make it possible for every young person to access high-quality international and cross-cultural education without physical mobility. While virtual debating or training does not fully replace the benefits of physical mobility, participants in virtual exchanges ought to reap some of the benefits of the international educational e"
+      },
+      "conditions": {
+        "eligible_countries": "EU Financial Regulation 2024/2509 Rules for Legal Entity Validation, LEAR Appointment and Financial Capacity Assessment EU Grants AGA — Annotated Model Grant Agreement Funding & Tenders Portal Online Manual Funding & Tenders Portal Terms and Conditions Funding & Tenders Portal Privacy Statemen",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 10665,
+        "main_content_length": 9162,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "erasmus",
+    "source_name": "Erasmus+",
+    "list_data": {
+      "title": "European Youth Together 2026",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-YOUTH-2026-YOUTH-TOG?isExactMatch=true&status=31094502&frameworkProgramme=43353764&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "04 December 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Erasmus (ERASMUS )",
+        "call": null,
+        "type_of_action": "ERASMUS-LS ERASMUS Lump Sum Grants",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "04 December 2025",
+        "deadline_date": "26 February 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nERASMUS-YOUTH-2026-YOUTH-TOG - ERASMUS-LS ERASMUS Lump Sum Grants\n\t8 000 000\tSingle-stage\t2025-12-04\t\n2026-02-26\n\t\n\t",
+        "amount": "8000000",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "Conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Submission and evaluation processes",
+        "5b. Evaluation and award: Award criteria, scoring and thresholds",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Call document and annexes:",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": null,
+        "scope": "European Youth Together European Youth Together is an Action implemented under the Key Action 3 - Support to Policy Development and Cooperation of the Erasmus+ Programme. Key Action 3 provides support to policy cooperation at European Union level, thereby contributing to the implementation of existing policies and the development of new policies, which can trigger modernisation and reforms, at European Union, and systems' level, in the fields of education, training youth and sport. The Europe"
+      },
+      "conditions": {
+        "eligible_countries": "EU Financial Regulation 2024/2509 Rules for Legal Entity Validation, LEAR Appointment and Financial Capacity Assessment EU Grants AGA — Annotated Model Grant Agreement Funding & Tenders Portal Online Manual Funding & Tenders Portal Terms and Conditions Funding & Tenders Portal Privacy Statem",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 13031,
+        "main_content_length": 11569,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "erasmus",
+    "source_name": "Erasmus+",
+    "list_data": {
+      "title": "Partnerships for Cooperation - Cooperation Partnerships in the field of education and training submitted by European NGOs",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2026-PCOOP-ENGO?isExactMatch=true&status=31094502&frameworkProgramme=43353764&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "04 December 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Erasmus (ERASMUS )",
+        "call": null,
+        "type_of_action": "ERASMUS-LS ERASMUS Lump Sum Grants",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "04 December 2025",
+        "deadline_date": "05 March 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nERASMUS-EDU-2026-PCOOP-ENGO - ERASMUS-LS ERASMUS Lump Sum Grants\n\t5 000 000\tSingle-stage\t2025-12-04\t\n2026-03-05\n\t\n\t",
+        "amount": "5000000",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "Conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Submission and evaluation processes",
+        "5b. Evaluation and award: Award criteria, scoring and thresholds",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Call document and annexes:",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": null,
+        "scope": "The primary goal of Cooperation Partnerships is to allow organisations to increase the quality and relevance of their activities, to develop and reinforce their networks of partners, to increase their capacity to operate jointly at transnational level, boosting internationalisation of their activities and through exchanging or developing new practices and methods as well as sharing and confronting ideas. They aim to support the development, transfer and/or implementation of innovative practices"
+      },
+      "conditions": {
+        "eligible_countries": "EU Financial Regulation 2024/2509 Rules for Legal Entity Validation, LEAR Appointment and Financial Capacity Assessment EU Grants AGA — Annotated Model Grant Agreement How to manage your lump sum grants Funding & Tenders Portal Online Manual Funding & Tenders Portal Terms and Conditions Fundin",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 7607,
+        "main_content_length": 5960,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "erasmus",
+    "source_name": "Erasmus+",
+    "list_data": {
+      "title": "Capacity building in VET in Latin America",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2026-CB-VET-LA?isExactMatch=true&status=31094502&frameworkProgramme=43353764&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "04 December 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Erasmus (ERASMUS )",
+        "call": null,
+        "type_of_action": "ERASMUS-LS ERASMUS Lump Sum Grants",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "04 December 2025",
+        "deadline_date": "26 March 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nERASMUS-EDU-2026-CB-VET-CA - ERASMUS-LS ERASMUS Lump Sum Grants\n\t300 000\tSingle-stage\t2025-12-04\t\n2026-03-26\n\t\n\t\n\n\nERASMUS-EDU-2026-CB-VET-LA - ERASMUS-LS ERASMUS Lump Sum Grants\n\t2 000 000\tSingle-stage\t2025-12-04\t\n2026-03-26\n\t\n\t\n\n\nERASMUS-EDU-2026-CB-VET-NE - ERASMUS-LS ERASMUS Lump Sum Grants\n\t3 800 000\tSingle-stage\t2025-12-04\t\n2026-03-26\n\t\n\t\n\n\nERASMUS-EDU-2026-CB-VET-SMC - ERASMUS-L",
+        "amount": "300000",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "Conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Submission and evaluation processes",
+        "5b. Evaluation and award: Award criteria, scoring and thresholds",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Call document and annexes:",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": null,
+        "scope": "Capacity Building in the Field of Vocational Education and Training (VET) Capacity building projects are international cooperation projects based on multilateral partnerships between organisations active in the field of VET in EU Member States and third countries associated to the Programme, and third countries not associated to the Programme. They aim to support the relevance, accessibility, and responsiveness of VET institutions and systems in third countries not associated to the Programme a"
+      },
+      "conditions": {
+        "eligible_countries": "EU Financial Regulation 2024/2509 Rules for Legal Entity Validation, LEAR Appointment and Financial Capacity Assessment EU Grants AGA — Annotated Model Grant Agreement Funding & Tenders Portal Online Manual Funding & Tenders Portal Terms and Conditions Funding & Tenders Portal Privacy Stateme",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 9085,
+        "main_content_length": 7599,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "erasmus",
+    "source_name": "Erasmus+",
+    "list_data": {
+      "title": "Capacity building in VET in South Mediterranean Countries",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2026-CB-VET-SMC?isExactMatch=true&status=31094502&frameworkProgramme=43353764&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "04 December 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Erasmus (ERASMUS )",
+        "call": null,
+        "type_of_action": "ERASMUS-LS ERASMUS Lump Sum Grants",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "04 December 2025",
+        "deadline_date": "26 March 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nERASMUS-EDU-2026-CB-VET-CA - ERASMUS-LS ERASMUS Lump Sum Grants\n\t300 000\tSingle-stage\t2025-12-04\t\n2026-03-26\n\t\n\t\n\n\nERASMUS-EDU-2026-CB-VET-LA - ERASMUS-LS ERASMUS Lump Sum Grants\n\t2 000 000\tSingle-stage\t2025-12-04\t\n2026-03-26\n\t\n\t\n\n\nERASMUS-EDU-2026-CB-VET-NE - ERASMUS-LS ERASMUS Lump Sum Grants\n\t3 800 000\tSingle-stage\t2025-12-04\t\n2026-03-26\n\t\n\t\n\n\nERASMUS-EDU-2026-CB-VET-SMC - ERASMUS-L",
+        "amount": "300000",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "Conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Submission and evaluation processes",
+        "5b. Evaluation and award: Award criteria, scoring and thresholds",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Call document and annexes:",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": null,
+        "scope": "Capacity Building in the Field of Vocational Education and Training (VET) Capacity building projects are international cooperation projects based on multilateral partnerships between organisations active in the field of VET in EU Member States and third countries associated to the Programme, and third countries not associated to the Programme. They aim to support the relevance, accessibility, and responsiveness of VET institutions and systems in third countries not associated to the Programme a"
+      },
+      "conditions": {
+        "eligible_countries": "EU Financial Regulation 2024/2509 Rules for Legal Entity Validation, LEAR Appointment and Financial Capacity Assessment EU Grants AGA — Annotated Model Grant Agreement Funding & Tenders Portal Online Manual Funding & Tenders Portal Terms and Conditions Funding & Tenders Portal Privacy Stateme",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 9122,
+        "main_content_length": 7603,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "erasmus",
+    "source_name": "Erasmus+",
+    "list_data": {
+      "title": "Capacity building in VET in Western Balkans",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2026-CB-VET-WB?isExactMatch=true&status=31094502&frameworkProgramme=43353764&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "04 December 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Erasmus (ERASMUS )",
+        "call": null,
+        "type_of_action": "ERASMUS-LS ERASMUS Lump Sum Grants",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "04 December 2025",
+        "deadline_date": "26 March 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nERASMUS-EDU-2026-CB-VET-CA - ERASMUS-LS ERASMUS Lump Sum Grants\n\t300 000\tSingle-stage\t2025-12-04\t\n2026-03-26\n\t\n\t\n\n\nERASMUS-EDU-2026-CB-VET-LA - ERASMUS-LS ERASMUS Lump Sum Grants\n\t2 000 000\tSingle-stage\t2025-12-04\t\n2026-03-26\n\t\n\t\n\n\nERASMUS-EDU-2026-CB-VET-NE - ERASMUS-LS ERASMUS Lump Sum Grants\n\t3 800 000\tSingle-stage\t2025-12-04\t\n2026-03-26\n\t\n\t\n\n\nERASMUS-EDU-2026-CB-VET-SMC - ERASMUS-L",
+        "amount": "300000",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "Conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Submission and evaluation processes",
+        "5b. Evaluation and award: Award criteria, scoring and thresholds",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Call document and annexes:",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": null,
+        "scope": "Capacity Building in the Field of Vocational Education and Training (VET) Capacity building projects are international cooperation projects based on multilateral partnerships between organisations active in the field of VET in EU Member States and third countries associated to the Programme, and third countries not associated to the Programme. They aim to support the relevance, accessibility, and responsiveness of VET institutions and systems in third countries not associated to the Programme a"
+      },
+      "conditions": {
+        "eligible_countries": "EU Financial Regulation 2024/2509 Rules for Legal Entity Validation, LEAR Appointment and Financial Capacity Assessment EU Grants AGA — Annotated Model Grant Agreement Funding & Tenders Portal Online Manual Funding & Tenders Portal Terms and Conditions Funding & Tenders Portal Privacy Stateme",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 9093,
+        "main_content_length": 7603,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "erasmus",
+    "source_name": "Erasmus+",
+    "list_data": {
+      "title": "Capacity building in VET in Caribbean",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2026-CB-VET-CA?isExactMatch=true&status=31094502&frameworkProgramme=43353764&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "04 December 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Erasmus (ERASMUS )",
+        "call": null,
+        "type_of_action": "ERASMUS-LS ERASMUS Lump Sum Grants",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "04 December 2025",
+        "deadline_date": "26 March 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nERASMUS-EDU-2026-CB-VET-CA - ERASMUS-LS ERASMUS Lump Sum Grants\n\t300 000\tSingle-stage\t2025-12-04\t\n2026-03-26\n\t\n\t\n\n\nERASMUS-EDU-2026-CB-VET-LA - ERASMUS-LS ERASMUS Lump Sum Grants\n\t2 000 000\tSingle-stage\t2025-12-04\t\n2026-03-26\n\t\n\t\n\n\nERASMUS-EDU-2026-CB-VET-NE - ERASMUS-LS ERASMUS Lump Sum Grants\n\t3 800 000\tSingle-stage\t2025-12-04\t\n2026-03-26\n\t\n\t\n\n\nERASMUS-EDU-2026-CB-VET-SMC - ERASMUS-L",
+        "amount": "300000",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "Conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Submission and evaluation processes",
+        "5b. Evaluation and award: Award criteria, scoring and thresholds",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Call document and annexes:",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": null,
+        "scope": "Capacity Building in the Field of Vocational Education and Training (VET) Capacity building projects are international cooperation projects based on multilateral partnerships between organisations active in the field of VET in EU Member States and third countries associated to the Programme, and third countries not associated to the Programme. They aim to support the relevance, accessibility, and responsiveness of VET institutions and systems in third countries not associated to the Programme a"
+      },
+      "conditions": {
+        "eligible_countries": "EU Financial Regulation 2024/2509 Rules for Legal Entity Validation, LEAR Appointment and Financial Capacity Assessment EU Grants AGA — Annotated Model Grant Agreement Funding & Tenders Portal Online Manual Funding & Tenders Portal Terms and Conditions Funding & Tenders Portal Privacy Statemen",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 9067,
+        "main_content_length": 7589,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "erasmus",
+    "source_name": "Erasmus+",
+    "list_data": {
+      "title": "Capacity building in VET in Neighbourhood East",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2026-CB-VET-NE?isExactMatch=true&status=31094502&frameworkProgramme=43353764&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "04 December 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Erasmus (ERASMUS )",
+        "call": null,
+        "type_of_action": "ERASMUS-LS ERASMUS Lump Sum Grants",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "04 December 2025",
+        "deadline_date": "26 March 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nERASMUS-EDU-2026-CB-VET-CA - ERASMUS-LS ERASMUS Lump Sum Grants\n\t300 000\tSingle-stage\t2025-12-04\t\n2026-03-26\n\t\n\t\n\n\nERASMUS-EDU-2026-CB-VET-LA - ERASMUS-LS ERASMUS Lump Sum Grants\n\t2 000 000\tSingle-stage\t2025-12-04\t\n2026-03-26\n\t\n\t\n\n\nERASMUS-EDU-2026-CB-VET-NE - ERASMUS-LS ERASMUS Lump Sum Grants\n\t3 800 000\tSingle-stage\t2025-12-04\t\n2026-03-26\n\t\n\t\n\n\nERASMUS-EDU-2026-CB-VET-SMC - ERASMUS-L",
+        "amount": "300000",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "Conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Submission and evaluation processes",
+        "5b. Evaluation and award: Award criteria, scoring and thresholds",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Call document and annexes:",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": null,
+        "scope": "Capacity Building in the Field of Vocational Education and Training (VET) Capacity building projects are international cooperation projects based on multilateral partnerships between organisations active in the field of VET in EU Member States and third countries associated to the Programme, and third countries not associated to the Programme. They aim to support the relevance, accessibility, and responsiveness of VET institutions and systems in third countries not associated to the Programme a"
+      },
+      "conditions": {
+        "eligible_countries": "EU Financial Regulation 2024/2509 Rules for Legal Entity Validation, LEAR Appointment and Financial Capacity Assessment EU Grants AGA — Annotated Model Grant Agreement Funding & Tenders Portal Online Manual Funding & Tenders Portal Terms and Conditions Funding & Tenders Portal Privacy Stateme",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 9099,
+        "main_content_length": 7603,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "erasmus",
+    "source_name": "Erasmus+",
+    "list_data": {
+      "title": "Capacity building in VET in Sub-Saharan Africa",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2026-CB-VET-SSA?isExactMatch=true&status=31094502&frameworkProgramme=43353764&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "04 December 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Erasmus (ERASMUS )",
+        "call": null,
+        "type_of_action": "ERASMUS-LS ERASMUS Lump Sum Grants",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "04 December 2025",
+        "deadline_date": "26 March 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nERASMUS-EDU-2026-CB-VET-CA - ERASMUS-LS ERASMUS Lump Sum Grants\n\t300 000\tSingle-stage\t2025-12-04\t\n2026-03-26\n\t\n\t\n\n\nERASMUS-EDU-2026-CB-VET-LA - ERASMUS-LS ERASMUS Lump Sum Grants\n\t2 000 000\tSingle-stage\t2025-12-04\t\n2026-03-26\n\t\n\t\n\n\nERASMUS-EDU-2026-CB-VET-NE - ERASMUS-LS ERASMUS Lump Sum Grants\n\t3 800 000\tSingle-stage\t2025-12-04\t\n2026-03-26\n\t\n\t\n\n\nERASMUS-EDU-2026-CB-VET-SMC - ERASMUS-L",
+        "amount": "300000",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "Conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Submission and evaluation processes",
+        "5b. Evaluation and award: Award criteria, scoring and thresholds",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Call document and annexes:",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": null,
+        "scope": "Capacity Building in the Field of Vocational Education and Training (VET) Capacity building projects are international cooperation projects based on multilateral partnerships between organisations active in the field of VET in EU Member States and third countries associated to the Programme, and third countries not associated to the Programme. They aim to support the relevance, accessibility, and responsiveness of VET institutions and systems in third countries not associated to the Programme a"
+      },
+      "conditions": {
+        "eligible_countries": "EU Financial Regulation 2024/2509 Rules for Legal Entity Validation, LEAR Appointment and Financial Capacity Assessment EU Grants AGA — Annotated Model Grant Agreement Funding & Tenders Portal Online Manual Funding & Tenders Portal Terms and Conditions Funding & Tenders Portal Privacy Stateme",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 9101,
+        "main_content_length": 7604,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "erasmus",
+    "source_name": "Erasmus+",
+    "list_data": {
+      "title": "Centres of Vocational Excellence",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2026-PEX-COVE?isExactMatch=true&status=31094502&frameworkProgramme=43353764&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "04 December 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Erasmus (ERASMUS )",
+        "call": null,
+        "type_of_action": "ERASMUS-LS ERASMUS Lump Sum Grants",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "04 December 2025",
+        "deadline_date": "03 September 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nERASMUS-EDU-2026-PEX-COVE - ERASMUS-LS ERASMUS Lump Sum Grants\n\t68 000 000\tSingle-stage\t2025-12-04\t\n2026-09-03\n\t\n\t",
+        "amount": "68000000",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "Conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Submission and evaluation processes",
+        "5b. Evaluation and award: Award criteria, scoring and thresholds",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Call document and annexes:",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": null,
+        "scope": "CENTRES OF VOCATIONAL EXCELLENCE Centres of Vocational Excellence (CoVE) aim to be a driving force for reforms in the Vocational Education Training (VET) sector, ensuring high quality skills and competences that lead to quality employment and career-long opportunities, meeting the needs of an innovative, inclusive and sustainable economy and contributing to addressing challenges in key economic sectors. The main objective is the establishment of transnational collaborative networks that bring"
+      },
+      "conditions": {
+        "eligible_countries": "European Union) ERASMUS+ Work Programme ERASMUS Regulation 2021/817 EU Financial Regulation 2024/2509 Rules for Legal Entity Validation, LEAR Appointment and Financial Capacity Assessment EU Grants AGA — Annotated Model Grant Agreement Funding & Tenders Portal Online Manual Funding & Tenders",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 10950,
+        "main_content_length": 9483,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  },
+  {
+    "source": "erasmus",
+    "source_name": "Erasmus+",
+    "list_data": {
+      "title": "Capacity Building in the field of Youth in Neighborhood East",
+      "link": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-YOUTH-2026-CB-NE?isExactMatch=true&status=31094502&frameworkProgramme=43353764&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "04 December 2025"
+    },
+    "detail_data": {
+      "url_type": "topic-details",
+      "page_title": "EU Funding & Tenders Portal",
+      "general_info": {
+        "programme": "Erasmus (ERASMUS )",
+        "call": null,
+        "type_of_action": "ERASMUS-LS ERASMUS Lump Sum Grants",
+        "grant_type": null,
+        "deadline_model": "single-stage",
+        "opening_date": "04 December 2025",
+        "deadline_date": "26 February 2026",
+        "status": "Open For Submission"
+      },
+      "budget": {
+        "found": true,
+        "raw_text": "Topic\n\tBudget (EUR) - Year : 2026\n\tStages\n\tOpening date\n\tDeadline\n\tContributions\n\tIndicative number of grants\n\n\nERASMUS-YOUTH-2026-CB-NE - ERASMUS-LS ERASMUS Lump Sum Grants\n\t3 122 000\tSingle-stage\t2025-12-04\t\n2026-02-26\n\t\n\t\n\n\nERASMUS-YOUTH-2026-CB-SMC - ERASMUS-LS ERASMUS Lump Sum Grants\n\t4 800 000\tSingle-stage\t2025-12-04\t\n2026-02-26\n\t\n\t\n\n\nERASMUS-YOUTH-2026-CB-SSA - ERASMUS-LS ERASMUS Lump Sum Grants\n\t8 000 000\tSingle-stage\t2025-12-04\t\n2026-02-26\n\t\n\t\n\n\nERASMUS-YOUTH-2026-CB-WB - ERASMUS-LS ERA",
+        "amount": "3122000",
+        "currency": "EUR",
+        "year": "2026"
+      },
+      "sections_found": [
+        "Conditions",
+        "1. Admissibility Conditions: Proposal page limit and layout",
+        "2. Eligible Countries",
+        "3. Other Eligible Conditions",
+        "4. Financial and operational capacity and exclusion",
+        "5a. Evaluation and award: Submission and evaluation processes",
+        "5b. Evaluation and award: Award criteria, scoring and thresholds",
+        "5c. Evaluation and award: Indicative timeline for evaluation and grant agreement",
+        "6. Legal and financial set-up of the grants",
+        "Call document and annexes:",
+        "Additional documents:"
+      ],
+      "description": {
+        "topic_description": "",
+        "expected_outcome": null,
+        "scope": null
+      },
+      "conditions": {
+        "eligible_countries": "EU Financial Regulation 2024/2509 Rules for Legal Entity Validation, LEAR Appointment and Financial Capacity Assessment EU Grants AGA — Annotated Model Grant Agreement Funding & Tenders Portal Online Manual Funding & Tenders Portal Terms and Conditions Funding & Tenders Portal Privacy Statement",
+        "eligibility_conditions": null
+      },
+      "raw": {
+        "full_text_length": 10557,
+        "main_content_length": 9035,
+        "has_budget_table": true,
+        "table_count": 1
+      }
+    }
+  }
+]

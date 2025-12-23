@@ -1,0 +1,77 @@
+DUPLICATE GRANTS REPORT
+================================================================================
+
+DUPLICATE TITLE + LINK COMBINATIONS: 12
+--------------------------------------------------------------------------------
+
+Title: Generic correlative and process-based models for climate suitability analysis for plant pests and diseases
+Link: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EUBA-EFSA-2025-PLANTS-05-02-Lot2?isExactMatch=true&status=31094502&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate
+Occurrences: 2
+Dates: 27 November 2025, 27 November 2025
+--------------------------------------------------------------------------------
+
+Title: Jean Monnet Network on Internal Policy: A resilient Single Market to boost EU competitiveness
+Link: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-JMO-2026-NETWORKS-HEI-EU?isExactMatch=true&status=31094502&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate
+Occurrences: 2
+Dates: 27 November 2025, 27 November 2025
+--------------------------------------------------------------------------------
+
+Title: Jean Monnet Actions for other fields of Education and Training: Learning EU
+Link: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-JMO-2026-OFET-LEARNING-EU?isExactMatch=true&status=31094502&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate
+Occurrences: 2
+Dates: 27 November 2025, 27 November 2025
+--------------------------------------------------------------------------------
+
+Title: Generic physiologically-based population dynamics model for plant pests
+Link: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EUBA-EFSA-2025-PLANTS-05-01-Lot1?isExactMatch=true&status=31094502&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate
+Occurrences: 2
+Dates: 27 November 2025, 27 November 2025
+--------------------------------------------------------------------------------
+
+Title: Jean Monnet Network on External Policy EU-INDIA
+Link: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-JMO-2026-NETWORKS-HEI-NON-EU-INDIA?isExactMatch=true&status=31094502&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate
+Occurrences: 2
+Dates: 27 November 2025, 27 November 2025
+--------------------------------------------------------------------------------
+
+Title: Jean Monnet Networks in other fields of education and training
+Link: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-JMO-2026-NETWORKS-SCHOOLS?isExactMatch=true&status=31094502&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate
+Occurrences: 2
+Dates: 27 November 2025, 27 November 2025
+--------------------------------------------------------------------------------
+
+Title: Jean Monnet Actions for other fields of Education and Training: Teacher Training
+Link: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-JMO-2026-OFET-TT?isExactMatch=true&status=31094502&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate
+Occurrences: 2
+Dates: 27 November 2025, 27 November 2025
+--------------------------------------------------------------------------------
+
+Title: Volunteering in support of humanitarian aid operations
+Link: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ESC-HUMAID-2026-VOLUN?isExactMatch=true&status=31094502&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate
+Occurrences: 2
+Dates: 27 November 2025, 27 November 2025
+--------------------------------------------------------------------------------
+
+Title: Convocatoria temática para las organizaciones de la sociedad civil y los derechos humanos en Costa Rica
+Link: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/prospect-details/185555PROSPECTSEN?isExactMatch=true&status=31094502&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate
+Occurrences: 2
+Dates: 26 November 2025, 26 November 2025
+--------------------------------------------------------------------------------
+
+Title: EU Support to Civil society and media organisations across thematic policy sectors, IPA III Civil Society Facility & Media Programme 2025; and EU Support for Combating Gender-Based and Domestic Violence -IPA III Programme 2022, for the Republic of North Macedonia
+Link: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/prospect-details/184168PROSPECTSEN?isExactMatch=true&status=31094502&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate
+Occurrences: 2
+Dates: 26 November 2025, 26 November 2025
+--------------------------------------------------------------------------------
+
+Title: Erasmus Mundus Joint Masters
+Link: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2026-PEX-EMJM-MOB?isExactMatch=true&status=31094502&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate
+Occurrences: 2
+Dates: 26 November 2025, 26 November 2025
+--------------------------------------------------------------------------------
+
+Title: Support for the implementation of the European Heritage Label
+Link: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-CULT-2026-EU-HERITAGE-LABEL?isExactMatch=true&status=31094502&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate
+Occurrences: 2
+Dates: 26 November 2025, 26 November 2025
+--------------------------------------------------------------------------------

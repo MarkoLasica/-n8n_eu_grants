@@ -1,0 +1,69 @@
+{
+  "sources": [
+    {
+      "id": "eu_portal",
+      "name": "EU Funding & Tenders Portal (All Programmes)",
+      "scraper": "eu_portal_scraper.js",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals",
+      "enabled": false,
+      "schedule": "0 7 * * *",
+      "output_file": "eu_portal_grants.csv",
+      "description": "Legacy scraper - scrapes all programmes without filtering"
+    },
+    {
+      "id": "horizon_europe",
+      "name": "Horizon Europe",
+      "scraper": "horizon_europe_scraper.js",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?frameworkProgramme=43108390",
+      "enabled": true,
+      "schedule": "0 7 * * *",
+      "output_file": "horizon_europe_grants.csv",
+      "description": "EU's key funding programme for research and innovation (2021-2027)"
+    },
+    {
+      "id": "digital_europe",
+      "name": "Digital Europe Programme",
+      "scraper": "digital_europe_scraper.js",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?frameworkProgramme=43152860",
+      "enabled": true,
+      "schedule": "0 7 * * *",
+      "output_file": "digital_europe_grants.csv",
+      "description": "Funding for digital transformation, AI, cybersecurity, and digital skills"
+    },
+    {
+      "id": "creative_europe",
+      "name": "Creative Europe Programme",
+      "scraper": "creative_europe_scraper.js",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?frameworkProgramme=43251814",
+      "enabled": true,
+      "schedule": "0 7 * * *",
+      "output_file": "creative_europe_grants.csv",
+      "description": "Support for culture, media, creative industries and audiovisual sectors"
+    },
+    {
+      "id": "erasmus",
+      "name": "Erasmus+",
+      "scraper": "erasmus_scraper.js",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?frameworkProgramme=43353764",
+      "enabled": true,
+      "schedule": "0 7 * * *",
+      "output_file": "erasmus_grants.csv",
+      "description": "EU programme for education, training, youth and sport"
+    },
+    {
+      "id": "adrion",
+      "name": "Interreg ADRION Programme",
+      "scraper": "adrion_scraper.js",
+      "url": "https://www.adrioninterreg.eu/",
+      "enabled": false,
+      "schedule": "0 7 * * *",
+      "output_file": "adrion_grants.csv",
+      "description": "Transnational Adriatic-Ionian cooperation (Albania, BiH, Croatia, Greece, Italy, Montenegro, Serbia, Slovenia) - PAUSED: needs refinement"
+    }
+  ],
+  "settings": {
+    "timeout_per_grant_ms": 900000,
+    "max_retries": 3,
+    "headless": false
+  }
+}

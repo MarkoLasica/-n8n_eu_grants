@@ -1,0 +1,137 @@
+[
+  {
+    "id": "alicorn",
+    "name": "Alicorn",
+    "slack_channel_id": "C09U22T1QDS",
+    "slack_user": "@marko",
+    "email_DISABLED": "marko@alicorn.me",
+    "profile": {
+      "description": "We are a marketing agency and software development company from Montenegro working in marketing services, software development, AI development, and video game development. We have 2 startups: 1. One making educational video games and apps for HR, compliance, and SDG. 2. Another creating AI products based on machine learning and large language models in the domain name industry.",
+      "country": "Montenegro",
+      "sectors": ["software development", "marketing", "edtech", "AI/ML", "video games"],
+      "keywords": ["educational games", "gamification", "HR tech", "compliance training", "SDG", "domain names", "LLM", "machine learning"],
+      "company_size": "SME",
+      "eligible_programs": ["Horizon Europe", "Creative Europe", "Digital Europe", "Erasmus+"]
+    }
+  },
+  {
+    "id": "codepixel",
+    "name": "Codepixel",
+    "slack_channel_id": "C0A20RJQ98F",
+    "slack_user": "@mihailo",
+    "email_DISABLED": "mihailo@codepixel.me",
+    "profile": {
+      "description": "Codepixel is a Montenegro-based digital product development company that blends engineering, design and AI to improve business operations and accelerate growth. Services include: Strategy & advisory (helping define the right product, business-goals alignment), Engineering & design (building web and mobile apps, UI/UX design, custom software), Operations & support (post-launch maintenance, scaling, supporting product lifecycles). Tech stack: .NET, Angular, Vue, Node, React, cloud/DevOps, IoT.",
+      "country": "Montenegro",
+      "sectors": ["software development", "digital products", "AI", "IoT", "cloud"],
+      "keywords": ["inovacije", "automatizacija", "digitalizacija", "AI", "web apps", "mobile apps", "UI/UX", "DevOps"],
+      "company_size": "SME",
+      "eligible_programs": ["Horizon Europe", "Digital Europe", "Interreg", "COSME"]
+    }
+  },
+  {
+    "id": "coinis",
+    "name": "Coinis",
+    "slack_channel_id": "C0A32QLUGG4",
+    "slack_user": "@milica",
+    "email_DISABLED": "milica@coinis.com",
+    "profile": {
+      "description": "Digital marketing company that also works on innovative projects, computer programming, and AI projects. Core business is digital marketing with expansion into adtech and innovation.",
+      "country": "Montenegro",
+      "sectors": ["digital marketing", "adtech", "AI", "software development"],
+      "keywords": ["digitalni marketing", "adtech", "AI industrija", "inovacije", "digitalizacija", "energetika"],
+      "company_size": "SME",
+      "eligible_programs": ["Horizon Europe", "Digital Europe", "Creative Europe"]
+    }
+  },
+  {
+    "id": "bild-studio",
+    "name": "Bild Studio",
+    "slack_channel_id": "C0A2X6GRAK0",
+    "slack_user": "@aleksandra",
+    "email_DISABLED": "aleksandra.boskovic@bild-studio.net",
+    "profile": {
+      "description": "Digital product design and development company. Services: Product discovery, Product design, Product development, AI transformation and development, Cloud infrastructure and operations, Web & mobile development, Enterprise solutions development. Focus on fintech, edutech, healthtech industries. Does not apply for tenders in gaming, military, gambling and beverage industries.",
+      "country": "Montenegro",
+      "sectors": ["software development", "fintech", "edutech", "healthtech", "AI", "cloud"],
+      "keywords": ["digital transformation", "enterprise software development", "AI consulting", "digital product development", "fintech", "edutech", "healthtech"],
+      "company_size": "SME",
+      "eligible_programs": ["Horizon Europe", "Digital Europe", "Creative Europe"]
+    }
+  },
+  {
+    "id": "payten",
+    "name": "Payten",
+    "slack_channel_id": "C0A2SRH0B6F",
+    "slack_user": "@marko.simonovic",
+    "email_DISABLED": "marko.simonovic@payten.com",
+    "profile": {
+      "description": "IT company focused on production and sales of own software solutions and complete solutions including third party hardware. Tenders typically include IT infrastructure (computing, communication, security), custom-made software solutions for financial sector, and proprietary software solutions.",
+      "country": "Montenegro",
+      "sectors": ["fintech", "payment solutions", "IT infrastructure", "software development"],
+      "keywords": ["inovacije", "payment industrija", "digitalizacija", "custom software", "finance", "IT infrastruktura"],
+      "company_size": "SME",
+      "eligible_programs": ["Horizon Europe", "Digital Europe"]
+    }
+  },
+  {
+    "id": "datadesign",
+    "name": "Data Design",
+    "slack_channel_id": "C0A3TGW24GY",
+    "slack_user": "@zeljko",
+    "email_DISABLED": "zeljko.popovic@datadesign.me",
+    "profile": {
+      "description": "Software company with proprietary ERP solution.",
+      "country": "Montenegro",
+      "sectors": ["software development", "ERP"],
+      "keywords": ["digitalizacija", "ERP", "software"],
+      "company_size": "SME",
+      "eligible_programs": ["Digital Europe", "Horizon Europe"]
+    }
+  },
+  {
+    "id": "ictcortex",
+    "name": "ICT Cortex",
+    "slack_channel_id": "C0A2VQC04DT",
+    "slack_user": "@biljana",
+    "email_DISABLED": "biljana@ictcortex.me",
+    "profile": {
+      "description": "IT cluster uniting over 45 IT companies. Focus on ensuring cluster sustainability (capacity building) and delivering benefits for member companies. Areas: digital transformation (IT solutions development, knowledge transfer with EU partners, collaboration with academia and public administration), education programs (Cortex academy for students and unemployed, training for employees), innovation development, creative industries (gaming).",
+      "country": "Montenegro",
+      "sectors": ["IT cluster", "digital transformation", "education", "innovation", "creative industries"],
+      "keywords": ["inovacije", "digitalizacija", "edukacija", "kreativne industrije", "capacity building", "knowledge transfer", "gaming"],
+      "company_size": "Cluster",
+      "eligible_programs": ["Horizon Europe", "Digital Europe", "Creative Europe", "Erasmus+", "Interreg", "Danube Programme"]
+    }
+  },
+  {
+    "id": "firstline",
+    "name": "First Line Software",
+    "slack_channel_id": "C0A3TGYNZNC",
+    "slack_user": "@innokenty",
+    "email_DISABLED": "innokenty.puntikov@firstlinesoftware.com",
+    "profile": {
+      "description": "Service company serving businesses in healthcare, digital transformation (DX), practices and AI. Looking for software services opportunities.",
+      "country": "International",
+      "sectors": ["healthcare", "digital transformation", "AI", "software services"],
+      "keywords": ["DX", "software services", "healthcare", "AI", "Gen AI"],
+      "company_size": "SME",
+      "eligible_programs": ["Horizon Europe", "Digital Europe"]
+    }
+  },
+  {
+    "id": "pannonegtc",
+    "name": "Pannone GTC",
+    "slack_channel_id": "C0A2VQF1ADB",
+    "slack_user": "@info",
+    "email_DISABLED": "info@pannonegtc.eu",
+    "profile": {
+      "description": "European Grouping of Territorial Cooperation (EGTC) bringing together partners from Hungary, Croatia and Bosnia-Herzegovina. Works on cross-border regional development, EU-funded projects, climate resilience, innovation and sustainable mobility. Acts as a stable cross-border platform that develops strategies, coordinates activities, and implements EU projects. Goal is joint economic development of border region and supporting European integration of Western Balkan countries through international partnership building and joint project generation.",
+      "country": "Hungary/Croatia/Bosnia-Herzegovina",
+      "sectors": ["regional development", "EU projects", "climate", "tourism", "environmental protection"],
+      "keywords": ["cross-border", "regional development", "climate resilience", "innovation", "sustainable mobility", "European integration", "Western Balkans", "economic development", "tourism", "environmental protection", "digital transition", "green transition", "energy community", "rural development"],
+      "company_size": "EGTC",
+      "eligible_programs": ["Horizon Europe", "Danube Region Programme", "Central Europe Program", "Interreg", "LIFE"]
+    }
+  }
+]

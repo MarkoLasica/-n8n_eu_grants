@@ -1,0 +1,689 @@
+{
+  "name": "N8N_EU_Grants_MultiCompany10_NativeNodes",
+  "nodes": [
+    {
+      "parameters": {
+        "jsCode": "const fs = require('fs');\nconst filePath = 'C:\\\\Users\\\\Korisnik\\\\Desktop\\\\Alicorn\\\\n8n_eu_grants\\\\data\\\\grants\\\\new_grants.csv';\n\nif (!fs.existsSync(filePath)) {\n  console.log('⚠️ new_grants.csv does not exist. Scraper may not have found new grants.');\n  return [\n    {\n      json: {\n        hasNewGrants: false,\n        message: 'new_grants.csv not found'\n      }\n    }\n  ];\n}\n\nconst stats = fs.statSync(filePath);\nconst fileSizeInBytes = stats.size;\nconst hasContent = fileSizeInBytes > 50;\n\nif (!hasContent) {\n  console.log('⚠️ new_grants.csv exists but has no content');\n  return [\n    {\n      json: {\n        hasNewGrants: false,\n        message: 'new_grants.csv exists but has no content',\n        fileSize: fileSizeInBytes\n      }\n    }\n  ];\n}\n\nconst buffer = fs.readFileSync(filePath);\n\nreturn [\n  {\n    json: {\n      hasNewGrants: true,\n      message: 'new grants file available',\n      fileSize: fileSizeInBytes\n    },\n    binary: {\n      data: await this.helpers.prepareBinaryData(buffer, 'new_grants.csv')\n    }\n  }\n];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [-496, 160],
+      "id": "9947909b-b4e8-41e7-87fe-33e6766fb0d0",
+      "name": "Read_New_Grants",
+      "alwaysOutputData": true,
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "c9e93737-56f5-4509-8512-8e0e55096d6e",
+              "leftValue": "={{ $json.hasNewGrants }}",
+              "rightValue": "=false",
+              "operator": {
+                "type": "boolean",
+                "operation": "false",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [-256, 96],
+      "id": "b1c5d9c6-fcd3-4cce-92ce-de51179ac2ec",
+      "name": "New_Grants_Empty?",
+      "alwaysOutputData": false
+    },
+    {
+      "parameters": {
+        "select": "channel",
+        "channelId": {
+          "__rl": true,
+          "value": "C09U22T1QDS",
+          "mode": "id"
+        },
+        "text": "=There are 0 new grants today :( \n\nSee you tomorrow, fingers crossed :)",
+        "otherOptions": {}
+      },
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.3,
+      "position": [0, 0],
+      "id": "a93d295c-2178-485a-877a-129603c8aba2",
+      "name": "No_Grants_Today :(",
+      "webhookId": "9d2b4f1b-7024-43ae-85aa-333fb3f11d87",
+      "credentials": {
+        "slackApi": {
+          "id": "mLR4kih4PzoQ7BMA",
+          "name": "Slack account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "options": {
+          "headerRow": true
+        }
+      },
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1,
+      "position": [0, 176],
+      "id": "91487cfb-d1d9-49e8-9f66-ec4b4ec12d56",
+      "name": "Extract_New_Grants"
+    },
+    {
+      "parameters": {
+        "mode": "manual",
+        "duplicateItem": true,
+        "assignments": {
+          "assignments": [
+            {
+              "id": "company-id",
+              "name": "company.id",
+              "value": "alicorn",
+              "type": "string"
+            },
+            {
+              "id": "company-name",
+              "name": "company.name",
+              "value": "Alicorn",
+              "type": "string"
+            },
+            {
+              "id": "company-slack",
+              "name": "company.slack_channel_id",
+              "value": "C09U22T1QDS",
+              "type": "string"
+            },
+            {
+              "id": "company-country",
+              "name": "company.profile.country",
+              "value": "Montenegro",
+              "type": "string"
+            },
+            {
+              "id": "company-description",
+              "name": "company.profile.description",
+              "value": "We are a marketing agency and software development company from Montenegro working in marketing services, software development, AI development, and video game development. We have 2 startups: 1. One making educational video games and apps for HR, compliance, and SDG. 2. Another creating AI products based on machine learning and large language models in the domain name industry.",
+              "type": "string"
+            },
+            {
+              "id": "company-sectors",
+              "name": "company.profile.sectors",
+              "value": "software development, marketing, edtech, AI/ML, video games",
+              "type": "string"
+            },
+            {
+              "id": "company-keywords",
+              "name": "company.profile.keywords",
+              "value": "educational games, gamification, HR tech, compliance training, SDG, domain names, LLM, machine learning",
+              "type": "string"
+            },
+            {
+              "id": "company-size",
+              "name": "company.profile.company_size",
+              "value": "SME",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [240, 80],
+      "id": "set-alicorn",
+      "name": "Alicorn_Data"
+    },
+    {
+      "parameters": {
+        "mode": "manual",
+        "duplicateItem": true,
+        "assignments": {
+          "assignments": [
+            {
+              "id": "company-id",
+              "name": "company.id",
+              "value": "codepixel",
+              "type": "string"
+            },
+            {
+              "id": "company-name",
+              "name": "company.name",
+              "value": "Codepixel",
+              "type": "string"
+            },
+            {
+              "id": "company-slack",
+              "name": "company.slack_channel_id",
+              "value": "C0A20RJQ98F",
+              "type": "string"
+            },
+            {
+              "id": "company-country",
+              "name": "company.profile.country",
+              "value": "Montenegro",
+              "type": "string"
+            },
+            {
+              "id": "company-description",
+              "name": "company.profile.description",
+              "value": "Codepixel is a Montenegro-based digital product development company that blends engineering, design and AI to improve business operations and accelerate growth. Services include: Strategy & advisory, Engineering & design (web and mobile apps, UI/UX design, custom software), Operations & support. Tech stack: .NET, Angular, Vue, Node, React, cloud/DevOps, IoT.",
+              "type": "string"
+            },
+            {
+              "id": "company-sectors",
+              "name": "company.profile.sectors",
+              "value": "software development, digital products, AI, IoT, cloud",
+              "type": "string"
+            },
+            {
+              "id": "company-keywords",
+              "name": "company.profile.keywords",
+              "value": "inovacije, automatizacija, digitalizacija, AI, web apps, mobile apps, UI/UX, DevOps",
+              "type": "string"
+            },
+            {
+              "id": "company-size",
+              "name": "company.profile.company_size",
+              "value": "SME",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [240, 280],
+      "id": "set-codepixel",
+      "name": "Codepixel_Data"
+    },
+    {
+      "parameters": {
+        "mode": "combine",
+        "mergeByFields": {
+          "values": []
+        },
+        "combinationMode": "multiplex",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.1,
+      "position": [480, 176],
+      "id": "merge-companies",
+      "name": "Combine_Companies"
+    },
+    {
+      "parameters": {
+        "mode": "combine",
+        "mergeByFields": {
+          "values": []
+        },
+        "combinationMode": "multiplex",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.1,
+      "position": [720, 176],
+      "id": "merge-grants-companies",
+      "name": "Grant_x_Company"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4o-mini",
+          "mode": "list",
+          "cachedResultName": "GPT-4O-MINI"
+        },
+        "responses": {
+          "values": [
+            {
+              "role": "system",
+              "content": "=You are evaluating EU grant opportunities for a specific company.\n\nCOMPANY PROFILE:\n- Name: {{ $json.company.name }}\n- Country: {{ $json.company.profile.country }}\n- Description: {{ $json.company.profile.description }}\n- Sectors: {{ $json.company.profile.sectors }}\n- Keywords: {{ $json.company.profile.keywords }}\n- Company Size: {{ $json.company.profile.company_size }}\n\nGRANT OPPORTUNITY:\n- Title: {{ $json.Title }}\n- Link: {{ $json.Link }}\n- Date: {{ $json.Date }}\n- Description: {{ $json.Description }}\n\nTASK: Determine if this grant opportunity is relevant for this specific company.\n\nIf it IS relevant, respond with:\n\"Yes - [brief explanation in 1-2 sentences why this is relevant for this company]\"\n\nIf it is NOT relevant, respond only with:\n\"No\"\n\nNote: If this is just a news article or an announcement that does not contain any actionable opportunity (such as a call, funding offer, or partnership invitation), answer \"No\"."
+            }
+          ]
+        },
+        "builtInTools": {},
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 2,
+      "position": [960, 176],
+      "id": "86735cb5-bddd-4f0e-9109-2d3b1b878159",
+      "name": "Is_Relevant?",
+      "credentials": {
+        "openAiApi": {
+          "id": "h7XGTH5LbDFiJKZ9",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "efa461d4-85b2-4632-8949-a8d0fd165083",
+              "leftValue": "={{ $json.output[0].content[0].text }}",
+              "rightValue": "=Yes",
+              "operator": {
+                "type": "string",
+                "operation": "contains"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [1200, 176],
+      "id": "41bfec8e-2f0a-4841-9743-57d7fea7f438",
+      "name": "If_Relevant"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4o-mini",
+          "mode": "list",
+          "cachedResultName": "GPT-4O-MINI"
+        },
+        "responses": {
+          "values": [
+            {
+              "role": "system",
+              "content": "=Based on the following grant information, extract and structure the data in JSON format:\n\nTitle: {{ $json.Title }}\nDate: {{ $json.Date }}\nDescription: {{ $json.Description }}\n\nPlease extract the following information and return ONLY valid JSON with these fields:\n\n{\n  \"summary\": \"Summary of the grant call\",\n  \"total_funding_available\": \"Total amount of funding (include currency)\",\n  \"application_type\": \"Can organizations apply individually, must they apply in partnership, or both options are allowed?\",\n  \"partner_types\": \"List types of partners required or allowed\",\n  \"partner_origins\": \"List geographic requirements\",\n  \"co_financing_required\": \"What percentage or amount of co-financing is required?\"\n}\n\nIf any information is not found in the description, use \"Not specified\" for that field.\n\nReturn ONLY the JSON object, no additional text."
+            }
+          ]
+        },
+        "builtInTools": {},
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 2,
+      "position": [1440, 80],
+      "id": "a9c944c4-bdc6-4016-ae0e-ebe2ff6082a9",
+      "name": "Extract_Details",
+      "credentials": {
+        "openAiApi": {
+          "id": "h7XGTH5LbDFiJKZ9",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "mode": "manual",
+        "duplicateItem": false,
+        "assignments": {
+          "assignments": [
+            {
+              "id": "summary",
+              "name": "summary",
+              "value": "={{ JSON.parse($json.output[0].content[0].text.match(/\\{[\\s\\S]*\\}/)?.[0] || '{}').summary || 'Not specified' }}",
+              "type": "string"
+            },
+            {
+              "id": "funding",
+              "name": "total_funding_available",
+              "value": "={{ JSON.parse($json.output[0].content[0].text.match(/\\{[\\s\\S]*\\}/)?.[0] || '{}').total_funding_available || 'Not specified' }}",
+              "type": "string"
+            },
+            {
+              "id": "app-type",
+              "name": "application_type",
+              "value": "={{ JSON.parse($json.output[0].content[0].text.match(/\\{[\\s\\S]*\\}/)?.[0] || '{}').application_type || 'Not specified' }}",
+              "type": "string"
+            },
+            {
+              "id": "partner-types",
+              "name": "partner_types",
+              "value": "={{ JSON.parse($json.output[0].content[0].text.match(/\\{[\\s\\S]*\\}/)?.[0] || '{}').partner_types || 'Not specified' }}",
+              "type": "string"
+            },
+            {
+              "id": "partner-origins",
+              "name": "partner_origins",
+              "value": "={{ JSON.parse($json.output[0].content[0].text.match(/\\{[\\s\\S]*\\}/)?.[0] || '{}').partner_origins || 'Not specified' }}",
+              "type": "string"
+            },
+            {
+              "id": "cofinance",
+              "name": "co_financing_required",
+              "value": "={{ JSON.parse($json.output[0].content[0].text.match(/\\{[\\s\\S]*\\}/)?.[0] || '{}').co_financing_required || 'Not specified' }}",
+              "type": "string"
+            },
+            {
+              "id": "title",
+              "name": "title",
+              "value": "={{ $json.Title }}",
+              "type": "string"
+            },
+            {
+              "id": "link",
+              "name": "link",
+              "value": "={{ $json.Link }}",
+              "type": "string"
+            },
+            {
+              "id": "date",
+              "name": "date",
+              "value": "={{ $json.Date }}",
+              "type": "string"
+            },
+            {
+              "id": "company-name",
+              "name": "company_name",
+              "value": "={{ $json.company.name }}",
+              "type": "string"
+            },
+            {
+              "id": "company-id",
+              "name": "company_id",
+              "value": "={{ $json.company.id }}",
+              "type": "string"
+            },
+            {
+              "id": "slack-channel",
+              "name": "slack_channel_id",
+              "value": "={{ $json.company.slack_channel_id }}",
+              "type": "string"
+            },
+            {
+              "id": "relevance",
+              "name": "relevance_reason",
+              "value": "={{ $('Is_Relevant?').item.json.output[0].content[0].text }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [1680, 80],
+      "id": "format-output",
+      "name": "Format_Output"
+    },
+    {
+      "parameters": {
+        "select": "channel",
+        "channelId": {
+          "__rl": true,
+          "value": "={{ $json.slack_channel_id }}",
+          "mode": "id"
+        },
+        "text": "=🎯 *New Grant Match for {{ $json.company_name }}!*\n\n📋 *Title:* {{ $json.title }}\n\n📝 *Summary:*\n{{ $json.summary }}\n\n📅 *Opening Date:* {{ $json.date }}\n\n💰 *Total Funding Available:* {{ $json.total_funding_available }}\n\n👥 *Application Type:* {{ $json.application_type }}\n\n🤝 *Partner Types:* {{ $json.partner_types }}\n\n🌍 *Partner Origins:* {{ $json.partner_origins }}\n\n💵 *Co-financing Required:* {{ $json.co_financing_required }}\n\n🔗 *Link:* {{ $json.link }}\n\n---\n_Why relevant: {{ $json.relevance_reason }}_",
+        "otherOptions": {}
+      },
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.3,
+      "position": [1920, 80],
+      "id": "7be658f6-24a9-49d2-8229-c561ba725e8a",
+      "name": "Send_To_Company_Channel",
+      "webhookId": "9d2b4f1b-7024-43ae-85aa-333fb3f11d87",
+      "credentials": {
+        "slackApi": {
+          "id": "mLR4kih4PzoQ7BMA",
+          "name": "Slack account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const fs = require('fs');\nconst items = $input.all();\nconst results = [];\n\nfor (const item of items) {\n  const title = item.json.Title || '';\n  const link = item.json.Link || '';\n  const date = item.json.Date || '';\n  const description = (item.json.Description || '').replace(/\"/g, '\"\"');\n  const companyId = item.json.company?.id || '';\n  const companyName = item.json.company?.name || '';\n\n  const csvRow = `\"${title}\",\"${link}\",\"${date}\",\"${description}\",\"${companyId}\",\"${companyName}\",\"no\"\\n`;\n  const csvPath = 'C:\\\\Users\\\\Korisnik\\\\Desktop\\\\Alicorn\\\\n8n_eu_grants\\\\data\\\\processed\\\\non_relevant.csv';\n\n  if (!fs.existsSync(csvPath)) {\n    const header = '\"Title\",\"Link\",\"Date\",\"Description\",\"CompanyId\",\"CompanyName\",\"Relevant\"\\n';\n    fs.writeFileSync(csvPath, header);\n  }\n\n  fs.appendFileSync(csvPath, csvRow);\n\n  results.push({\n    json: {\n      message: `Grant \"${title}\" marked as not relevant for ${companyName}`,\n      title, link, date, company_id: companyId, company_name: companyName\n    }\n  });\n}\n\nreturn results;"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1440, 280],
+      "id": "9202ff80-0fbf-460a-9e39-222168a4069f",
+      "name": "Log_Non_Relevant"
+    },
+    {
+      "parameters": {
+        "command": "cd C:\\Users\\Korisnik\\Desktop\\Alicorn\\n8n_eu_grants && node scrapers/run_all_scrapers.js"
+      },
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [-736, 160],
+      "id": "573e4fa8-bfcc-46c9-ab2a-6db2a66c0797",
+      "name": "Grant_Scrapers"
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "triggerAtHour": 7
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [-992, 160],
+      "id": "33a08114-b49b-4617-a79f-0119d55968d2",
+      "name": "Schedule Trigger"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [480, 80],
+      "id": "no-op-grants",
+      "name": "Grants_Input"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Read_New_Grants": {
+      "main": [
+        [
+          {
+            "node": "New_Grants_Empty?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "New_Grants_Empty?": {
+      "main": [
+        [
+          {
+            "node": "No_Grants_Today :(",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Extract_New_Grants",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract_New_Grants": {
+      "main": [
+        [
+          {
+            "node": "Alicorn_Data",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Codepixel_Data",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Grants_Input",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Alicorn_Data": {
+      "main": [
+        [
+          {
+            "node": "Combine_Companies",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Codepixel_Data": {
+      "main": [
+        [
+          {
+            "node": "Combine_Companies",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Combine_Companies": {
+      "main": [
+        [
+          {
+            "node": "Grant_x_Company",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Grants_Input": {
+      "main": [
+        [
+          {
+            "node": "Grant_x_Company",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Grant_x_Company": {
+      "main": [
+        [
+          {
+            "node": "Is_Relevant?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Is_Relevant?": {
+      "main": [
+        [
+          {
+            "node": "If_Relevant",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If_Relevant": {
+      "main": [
+        [
+          {
+            "node": "Extract_Details",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Log_Non_Relevant",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract_Details": {
+      "main": [
+        [
+          {
+            "node": "Format_Output",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Format_Output": {
+      "main": [
+        [
+          {
+            "node": "Send_To_Company_Channel",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Grant_Scrapers": {
+      "main": [
+        [
+          {
+            "node": "Read_New_Grants",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "Grant_Scrapers",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "mc10-native-nodes-v1",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "83a32f2e7edb8835cdf7075f15980f111fdb703a9950985f814febcaa25cace9"
+  },
+  "id": "7IjYE2TQQbJE2nML",
+  "tags": []
+}

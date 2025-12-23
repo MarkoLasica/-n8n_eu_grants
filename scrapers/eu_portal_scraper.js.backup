@@ -1,0 +1,309 @@
+const puppeteer = require('puppeteer');
+const fs = require('fs');
+const cheerio = require('cheerio');
+
+(async () => {
+    try {
+        const browser = await puppeteer.launch({ headless: false });
+        const page = await browser.newPage();
+
+        const url = 'https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?order=DESC&pageNumber=1&pageSize=50&sortBy=startDate&isExactMatch=true&status=31094502';
+
+        await page.goto(url, { waitUntil: 'networkidle2', timeout: 60000 });
+        await page.waitForSelector('sedia-result-card', { timeout: 60000 });
+
+        let allGrants = [];
+        let hasNextPage = true;
+
+        const existingTitlesSet = new Set();
+
+        // Učitavanje postojećih naslova iz CSV (sa potpunom normalizacijom)
+        const path = require('path');
+        const grantsPath = path.join(__dirname, '..', 'data', 'grants', 'eu_portal_grants.csv');
+
+        // DEBUG: Log current working directory and file path
+        console.log('🔍 DEBUG: Current working directory:', process.cwd());
+        console.log('🔍 DEBUG: Script directory (__dirname):', __dirname);
+        console.log('🔍 DEBUG: Looking for CSV at:', grantsPath);
+        console.log('🔍 DEBUG: File exists?', fs.existsSync(grantsPath));
+
+        if (fs.existsSync(grantsPath)) {
+            const csvData = fs.readFileSync(grantsPath, 'utf-8');
+            const lines = csvData.split('\n').slice(1);
+
+            // DEBUG: Log file info
+            console.log('🔍 DEBUG: CSV file size:', csvData.length, 'bytes');
+            console.log('🔍 DEBUG: Total lines in CSV (excluding header):', lines.length);
+
+            for (const line of lines) {
+                if (!line.trim()) continue; // Skip empty lines
+                
+                // Extract title respecting CSV quotes
+                let title = '';
+                if (line.startsWith('"')) {
+                    // Title is quoted - find closing quote
+                    const closingQuoteIndex = line.indexOf('",', 1);
+                    if (closingQuoteIndex === -1) continue;
+                    title = line.substring(1, closingQuoteIndex);
+                } else {
+                    // Title is not quoted - use first comma
+                    const firstCommaIndex = line.indexOf(',');
+                    if (firstCommaIndex === -1) continue;
+                    title = line.substring(0, firstCommaIndex);
+                }
+                
+                // Normalize title
+                title = title
+                    .replace(/""/g, '"')
+                    .replace(/"|"/g, '"')
+                    .replace(/[–—−]/g, '-')
+                    .replace(/[\u00A0\u2009\u202F]/g, ' ')
+                    .replace(/"/g, '')
+                    .trim()
+                    .toLowerCase();
+
+                if (title) {
+                    existingTitlesSet.add(title);
+                }
+            }
+        } else {
+            console.log('⚠️ DEBUG: CSV file does NOT exist! Creating new file.');
+        }
+        console.log(`Loaded ${existingTitlesSet.size} existing titles from eu_portal_grants.csv`);
+if (existingTitlesSet.size < 10) {
+    console.log('Sample titles in Set:', Array.from(existingTitlesSet).slice(0, 5));
+}
+
+        // Normalizacija naslova iz DOM-a
+        const normalizeTitle = title =>
+            title
+                .replace(/""/g, '"')
+                .replace(/"|"/g, '"')
+                .replace(/[–—−]/g, '-')
+                .replace(/[\u00A0\u2009\u202F]/g, ' ')
+                .replace(/"/g, '')
+                .trim()
+                .toLowerCase();
+
+        const checkIfTitleExists = title => {
+            return existingTitlesSet.has(normalizeTitle(title));
+        };
+
+        // Function to process a single grant with timeout
+        async function processGrantWithTimeout(grant, timeout = 15 * 60 * 1000) { // 15 minutes in milliseconds
+            return new Promise(async (resolve) => {
+                let timeoutId;
+
+                try {
+                    // Set timeout
+                    timeoutId = setTimeout(() => {
+                        console.log(`Timeout reached for grant: ${grant.title}`);
+                        resolve(null);
+                    }, timeout);
+
+                    const newPage = await browser.newPage();
+                    await newPage.goto(grant.link, { waitUntil: 'networkidle2', timeout: 60000 });
+                    await new Promise(resolve => setTimeout(resolve, 2000));
+
+                    const content = await newPage.content();
+                    const $ = cheerio.load(content);
+
+                    const descriptionElements = $('.col-md-9.col-xxl-10 *').map((_, el) => $(el).text().trim()).get();
+                    const fullDescription = [grant.title, ...descriptionElements].join(' ').replace(/\s+/g, ' ').trim() || 'N/A';
+
+                    const descriptionTokens = fullDescription.split(/\s+/);
+                    const limitedDescription = descriptionTokens.slice(0, 1000).join(' ');
+
+                    grant.description = limitedDescription;
+                    await newPage.close();
+
+                    clearTimeout(timeoutId);
+                    resolve(grant);
+                } catch (error) {
+                    console.error(`Error processing grant ${grant.title}:`, error.message);
+                    clearTimeout(timeoutId);
+                    resolve(null);
+                }
+            });
+        }
+
+        while (hasNextPage) {
+            try {
+                const grants = await page.evaluate(() => {
+                    const data = [];
+                    const cards = document.querySelectorAll('sedia-result-card');
+
+                    cards.forEach(card => {
+                        const title = card.querySelector('a.eui-u-font-regular')?.innerText.trim() || 'N/A';
+                        let link = card.querySelector('a.eui-u-font-regular')?.getAttribute('href') || 'N/A';
+
+                        if (link.startsWith('/')) {
+                            link = 'https://ec.europa.eu' + link;
+                        }
+
+                        const dates = card.querySelectorAll('strong');
+                        const date = dates.length > 0 ? dates[0].innerText.trim() : 'N/A';
+
+                        data.push({ title, link, date });
+                    });
+
+                    return data;
+                });
+
+                console.log(` Pronađeno ${grants.length} grantova na ovoj stranici.`);
+
+                for (const grant of grants) {
+                    const normalized = normalizeTitle(grant.title);
+                    const alreadyExists = checkIfTitleExists(grant.title);
+
+                    if (alreadyExists) {
+                        console.log(` Preskočeno (već postoji): ${grant.title}`);
+                        continue;
+                    }
+
+                    if (grant.link !== 'N/A') {
+                        const processedGrant = await processGrantWithTimeout(grant);
+                        if (processedGrant) {
+                            allGrants.push(processedGrant);
+                            existingTitlesSet.add(normalized);
+                            console.log(` Dodan: ${grant.title}`);
+                        } else {
+                            console.log(` Preskočeno (timeout ili greška): ${grant.title}`);
+                        }
+                    }
+                }
+
+                // Provjera i klik na sljedeću stranicu s poboljšanim error handlingom
+                hasNextPage = false; // Default to false, set to true if we successfully navigate
+
+                try {
+                    // Wait for pagination buttons to be present
+                    await page.waitForSelector('button.eui-button.eui-button--basic', { timeout: 30000 });
+
+                    // Get all pagination buttons
+                    const nextPageButtons = await page.$$('button.eui-button.eui-button--basic');
+
+                    if (nextPageButtons.length > 0) {
+                        // Check if the last button (usually "Next") is disabled
+                        const isNextButtonDisabled = await nextPageButtons[nextPageButtons.length - 1].evaluate(button =>
+                            button.hasAttribute('disabled')
+                        );
+
+                        if (!isNextButtonDisabled) {
+                            // Click the button before the last one (which should be the actual next page number)
+                            await Promise.all([
+                                page.waitForNavigation({ timeout: 60000 }),
+                                nextPageButtons[nextPageButtons.length - 2].click()
+                            ]);
+
+                            console.log('Sledeća stranica...');
+                            await page.waitForSelector('sedia-result-card', { timeout: 60000 });
+                            await new Promise(resolve => setTimeout(resolve, 3000));
+
+                            hasNextPage = true;
+                        } else {
+                            console.log("Nema više stranica. Završavam.");
+                        }
+                    } else {
+                        console.log("Nije pronađena paginacija. Završavam.");
+                    }
+                } catch (navError) {
+                    console.error('Greška pri navigaciji na sljedeću stranicu:', navError.message);
+                    console.log('Pokušavam nastaviti sa sljedećom stranicom...');
+
+                    try {
+                        // Alternative navigation method - try to increment the page number in the URL
+                        const currentUrl = await page.url();
+                        const urlObj = new URL(currentUrl);
+                        const currentPage = parseInt(urlObj.searchParams.get('pageNumber') || '1');
+                        urlObj.searchParams.set('pageNumber', (currentPage + 1).toString());
+
+                        await page.goto(urlObj.toString(), { waitUntil: 'networkidle2', timeout: 60000 });
+
+                        // Check if we have results on this page
+                        const hasResults = await page.evaluate(() => {
+                            return document.querySelectorAll('sedia-result-card').length > 0;
+                        });
+
+                        if (hasResults) {
+                            console.log(`Uspješno navigiran na stranicu ${currentPage + 1} putem URL-a.`);
+                            hasNextPage = true;
+                        } else {
+                            console.log('Nema rezultata na sljedećoj stranici. Završavam.');
+                        }
+                    } catch (altNavError) {
+                        console.error('Alternativna navigacija nije uspjela:', altNavError.message);
+                    }
+                }
+            } catch (pageError) {
+                console.error('Greška pri obradi stranice:', pageError.message);
+                console.log('Pokušavam nastaviti sa sljedećom stranicom...');
+
+                // Try to recover by refreshing the page
+                try {
+                    await page.reload({ waitUntil: 'networkidle2', timeout: 60000 });
+                    await new Promise(resolve => setTimeout(resolve, 5000));
+
+                    // Check if we've recovered
+                    const hasRecovered = await page.evaluate(() => {
+                        return document.querySelectorAll('sedia-result-card').length > 0;
+                    });
+
+                    if (!hasRecovered) {
+                        console.log('Nije moguće oporaviti se. Završavam.');
+                        hasNextPage = false;
+                    }
+                } catch (recoveryError) {
+                    console.error('Greška pri pokušaju oporavka:', recoveryError.message);
+                    hasNextPage = false;
+                }
+            }
+        }
+
+        await browser.close();
+
+        if (allGrants.length === 0) {
+            console.log('⚠️ Nema novih podataka za upis.');
+
+            // Delete old new_grants.csv if it exists (prevents n8n from re-processing old data)
+            const newGrantsPath = path.join(__dirname, '..', 'data', 'grants', 'new_grants.csv');
+            if (fs.existsSync(newGrantsPath)) {
+                fs.unlinkSync(newGrantsPath);
+                console.log('🗑️ Obrisan stari new_grants.csv (nema novih grantova)');
+            }
+
+            // Update marker file to signal completion
+            fs.writeFileSync(path.join(__dirname, '..', 'scraper_finished.txt'), Date.now().toString(), 'utf8');
+            console.log('✅ Scraper finished - no new grants found');
+            return;
+        }
+
+        const csvHeader = `"Title","Link","Date","Description"\n`;
+        const csvContent = allGrants.map(g =>
+            `"${g.title.replace(/"/g, '""')}",` +
+            `"${g.link}",` +
+            `"${g.date}",` +
+            `"${(g.description || 'N/A').replace(/"/g, '""')}"`
+        ).join('\n') + '\n';
+
+        // Write to eu_portal_grants.csv (main source file)
+        const euPortalPath = path.join(__dirname, '..', 'data', 'grants', 'eu_portal_grants.csv');
+        const isNewFileEuPortal = !fs.existsSync(euPortalPath);
+        fs.appendFileSync(euPortalPath, (isNewFileEuPortal ? csvHeader : "") + csvContent, 'utf8');
+        console.log(`\n Dodato ${allGrants.length} novih grantova u eu_portal_grants.csv.`);
+
+        // Write ONLY NEW grants to new_grants.csv (overwrite each time)
+        // This file is used by n8n to process only today's new grants
+        const newGrantsPath = path.join(__dirname, '..', 'data', 'grants', 'new_grants.csv');
+        const newGrantsCSV = csvHeader + csvContent;
+        fs.writeFileSync(newGrantsPath, newGrantsCSV, 'utf8');
+        console.log(` ✅ Exportovano ${allGrants.length} NOVIH grantova u new_grants.csv (for n8n processing)`);
+
+        // Create marker file to signal completion
+        fs.writeFileSync(path.join(__dirname, '..', 'scraper_finished.txt'), Date.now().toString(), 'utf8');
+        console.log(' Marker file created - scraper finished!');
+
+    } catch (error) {
+        console.error('Greška pri dohvaćanju podataka:', error);
+    }
+})();
